@@ -6,7 +6,7 @@ import MaterialInput from "@/components/MaterialInput.vue";
 import MaterialTextArea from "@/components/MaterialTextArea.vue";
 
 // image
-import bgContact from "@/assets/img/examples/blog2.jpg";
+import bgContact from "@/assets/img/examples/20200218_192209.jpg";
 
 // tooltip
 import setTooltip from "@/assets/js/tooltip";
@@ -40,16 +40,9 @@ onMounted(() => {
                   >
                     <h3 class="text-white">Contact Information</h3>
                     <p class="text-white opacity-8 mb-4">
-                      Fill up the form and our Team will get back to you within
-                      24 hours.
+                      Fill up the form and we will get back to you as son as we can.
                     </p>
                     <div class="d-flex p-2 text-white">
-                      <div>
-                        <i class="fas fa-phone text-sm"></i>
-                      </div>
-                      <div class="ps-3">
-                        <span class="text-sm opacity-8">(+40) 772 100 200</span>
-                      </div>
                     </div>
                     <div class="d-flex p-2 text-white">
                       <div>
@@ -57,7 +50,7 @@ onMounted(() => {
                       </div>
                       <div class="ps-3">
                         <span class="text-sm opacity-8"
-                          >hello@creative-tim.com</span
+                          >https://www.facebook.com/richard.mcmaster.942/</span
                         >
                       </div>
                     </div>
@@ -67,7 +60,7 @@ onMounted(() => {
                       </div>
                       <div class="ps-3">
                         <span class="text-sm opacity-8"
-                          >Dyonisie Wolf Bucharest, RO 010458</span
+                          >Richard Mcmaster... Melon_man2000@hotmail.com</span
                         >
                       </div>
                     </div>
@@ -79,6 +72,8 @@ onMounted(() => {
                         data-toggle="tooltip"
                         data-placement="bottom"
                         data-original-title="Log in with Facebook"
+                        text-sm opacity-8
+                          >https://www.facebook.com/richard.mcmaster.942/
                       >
                         <i class="fab fa-facebook"></i>
                       </MaterialButton>

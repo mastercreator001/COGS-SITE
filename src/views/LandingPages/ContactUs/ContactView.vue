@@ -6,7 +6,7 @@ import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "@/examples/footers/FooterDefault.vue";
 
 //image
-import image from "@/assets/img/illustrations/illustration-signin.jpg";
+import image from "@/assets/img/illustrations/20200411_093723.jpg";
 
 //material components
 import MaterialInput from "@/components/MaterialInput.vue";
@@ -26,9 +26,9 @@ onMounted(() => {
         <DefaultNavbar
           :sticky="true"
           :action="{
-            route: 'https://www.creative-tim.com/product/vue-material-kit-pro',
+            route: 'Melon_man2000@hotmail.com',
             color: 'bg-gradient-success',
-            label: 'Buy Now',
+            label: 'Contribute Now',
           }"
         />
       </div>
@@ -67,8 +67,8 @@ onMounted(() => {
               </div>
               <div class="card-body">
                 <p class="pb-3">
-                  For further questions, including partnership opportunities,
-                  please email hello@creative-tim.com or contact using our
+                  For further questions, including contribution opportunities,
+                  please email Melon_man2000@hotmail.com or contact using our
                   contact form.
                 </p>
                 <form id="contact-form" method="post" autocomplete="off">
@@ -87,7 +87,7 @@ onMounted(() => {
                           class="input-group-static mb-4"
                           type="email"
                           label="Email"
-                          placeholder="hello@creative-tim.com"
+                          placeholder="hello@Melon_man2000"
                         />
                       </div>
                     </div>
@@ -96,8 +96,8 @@ onMounted(() => {
                         id="message"
                         class="input-group-static mb-4"
                         :rows="6"
-                        placeholder="Describe your problem in at least 250 characters"
-                        >How can we help you?</MaterialTextArea
+                        placeholder="Describe your Contribution at least 250 characters"
+                        >How can we help you help everyone?</MaterialTextArea
                       >
                     </div>
                     <div class="row">

@@ -6,7 +6,7 @@ import MaterialAvatar from "@/components/MaterialAvatar.vue";
 import MaterialButton from "@/components/MaterialButton.vue";
 
 // image
-import profilePic from "@/assets/img/bruce-mars.jpg";
+import profilePic from "@/assets/img/Lumii_20210523_095748061.jpg";
 
 // material-input
 import setMaterialInput from "@/assets/js/material-input";
@@ -36,7 +36,7 @@ onMounted(() => {
               <div
                 class="d-flex justify-content-between align-items-center mb-2"
               >
-                <h3 class="mb-0">Michael Roven</h3>
+                <h3 class="mb-0">Richard McMaster</h3>
                 <div class="d-block">
                   <MaterialButton
                     class="text-nowrap mb-0"
@@ -62,10 +62,7 @@ onMounted(() => {
                 </div>
               </div>
               <p class="text-lg mb-0">
-                Decisions: If you can’t decide, the answer is no. If two equally
-                difficult paths, choose the one more painful in the short term
-                (pain avoidance is creating an illusion of equality). Choose the
-                path that leaves you more equanimous.
+                Hi and welcome back to C Of E Middle School or perhaps you prefer Welly Road. Whichever is the favourite this is the place to be for all the available content on the old school. I'm Richard and I host the sight for all ex students to enjoy, we welcome contributions photos and stories and anything relevan to the old school.
                 <br /><a
                   href="javascript:;"
                   class="text-success icon-move-right"
