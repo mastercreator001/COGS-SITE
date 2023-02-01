@@ -19,23 +19,20 @@ defineProps({
     default: () => [
       {
         icon: '<i class="fab fa-facebook text-lg opacity-8"></i>',
-        link: "https://www.facebook.com/CreativeTim/"
+        link: "https://www.facebook.com/richard.mcmaster.942/"
       },
-      {
-        icon: '<i class="fab fa-twitter text-lg opacity-8"></i>',
-        link: "https://twitter.com/creativetim"
-      },
+      
       {
         icon: '<i class="fab fa-dribbble text-lg opacity-8"></i>',
-        link: "https://dribbble.com/creativetim"
+        link: "https:/"
       },
       {
         icon: '<i class="fab fa-github text-lg opacity-8"></i>',
-        link: "https://github.com/creativetimofficial"
+        link: "https://github.com/mastercreator001"
       },
       {
         icon: '<i class="fab fa-youtube text-lg opacity-8"></i>',
-        link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w"
+        link: "https://studio.youtube.com/channel/UCv8hKKkRIAM2xyVyPJYJmSw"
       }
     ]
   },
@@ -49,76 +46,24 @@ defineProps({
     },
     default: () => [
       {
-        name: "company",
+        name: "C Of E Site Maintenance",
         items: [
           {
-            name: "about us",
-            href: "https://www.creative-tim.com/presentation"
+            name: "You Tube Channel",
+            href: "https://www.youtube.com/@melonman2000"
           },
           {
-            name: "freebies",
-            href: "https://www.creative-tim.com/templates/free"
+            name: "Facebook Contact",
+            href: "https://www.facebook.com/richard.mcmaster.942/"
           },
           {
-            name: "premium tools",
-            href: "https://www.creative-tim.com/templates/premium"
+            name: "Email Address",
+            href: "melon_man2000@hotmail.com"
           },
-          { name: "blog", href: "https://www.creative-tim.com/blog" }
+          { name: "Admin", href: "https://melon_man2000@hotmail.com" }
         ]
       },
-      {
-        name: "resources",
-        items: [
-          { name: "illustrations", href: "https://iradesign.io/" },
-          {
-            name: "bits & snippets",
-            href: "https://www.creative-tim.com/bits"
-          },
-          {
-            name: "affiliate program",
-            href: "https://www.creative-tim.com/affiliates/new"
-          }
-        ]
-      },
-      {
-        name: "help & support",
-        items: [
-          {
-            name: "contact us",
-            href: "https://www.creative-tim.com/contact-us"
-          },
-          {
-            name: "knowledge center",
-            href: "https://www.creative-tim.com/knowledge-center"
-          },
-          {
-            name: "custom development",
-            href: "https://services.creative-tim.com/"
-          },
-          {
-            name: "sponsorships",
-            href: "https://www.creative-tim.com/sponsorships"
-          }
-        ]
-      },
-      {
-        name: "legal",
-        items: [
-          {
-            name: "terms & conditions",
-            href: "https://www.creative-tim.com/terms"
-          },
-          {
-            name: "privacy policy",
-            href: "https://www.creative-tim.com/privacy"
-          },
-          {
-            name: "licenses (EULA)",
-            href: "https://www.creative-tim.com/license"
-          }
-        ]
-      }
-    ]
+   ]
   }
 });
 </script>
@@ -171,9 +116,9 @@ defineProps({
             <p class="text-dark my-4 text-sm font-weight-normal">
               All rights reserved. Copyright ©
               {{ new Date().getFullYear() }}
-              Material Kit by
-              <a href="https://www.creative-tim.com" target="_blank"
-                >Creative Tim</a
+              By
+              <a href="https://www.Richard>McMaster.com" target="_blank"
+                >C Of E Maintenance Team</a
               >.
             </p>
           </div>
