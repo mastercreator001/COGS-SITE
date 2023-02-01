@@ -31,9 +31,9 @@ import imgDropdowns from "@/assets/img/dropdowns.jpg";
 
 export default [
   {
-    heading: "Design Blocks",
+    heading: "Staff",
     description:
-      "A selection of 45 page sections that fit perfectly in any combination",
+      "A Page of all known staff worked for the school",
     items: [
       {
         image: `${imagesPrefix}/headers.jpg`,

@@ -56,10 +56,12 @@ export default {
               >Infinite combinations</MaterialBadge
             >
 
-            <h2 class="text-dark mb-0">Huge collection of sections</h2>
+            <h2 class="text-dark mb-0">Huge collection of stories and photos just waiting to be written by you</h2>
+            <br>
+            <h2 Class=" text-dark mb-0"> Please submit stories memories and media via the links </h2>
             <p class="lead">
-              We have created multiple options for you to put together and
-              customise into pixel perfect pages.
+              <br>
+              We have created a flexiable website to grow and expand to cover all aspects of the school, life ,holidays.
             </p>
           </div>
         </div>

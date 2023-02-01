@@ -13,18 +13,16 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 ms-lg-5">
-            <h4 class="text-white">Built by developers</h4>
-            <h1 class="text-white">Complex Documentation</h1>
+            <h4 class="text-white">Built by Passion</h4>
+            <h1 class="text-white">A Church of England Production</h1>
             <p class="lead text-white opacity-8">
-              From colors, cards, typography to complex elements, you will find
-              the full documentation. Play with the utility classes and you will
-              create unlimited combinations for our components.
+          Its a trinity thing dont you know.
             </p>
             <a
-              href="https://www.creative-tim.com/learning-lab/vue/overview/material-kit/"
+              src="https://www.creative-tim.com/learning-lab/vue/overview/material-kit/"
               class="text-white icon-move-right"
             >
-              Read docs
+              Head home
               <i class="fas fa-arrow-right text-sm ms-1"></i>
             </a>
           </div>
