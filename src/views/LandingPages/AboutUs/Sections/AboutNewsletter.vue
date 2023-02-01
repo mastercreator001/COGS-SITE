@@ -15,10 +15,9 @@ onMounted(() => {
     <div class="container">
       <div class="row">
         <div class="col-md-6 m-auto">
-          <h4>Be the first to see the news</h4>
+          <h4>Submit content and be the next story </h4>
           <p class="mb-4">
-            Your company may not be in the software business, but eventually, a
-            software company will be in your business.
+            Your loft or box room may hold the next big thing for The Welly Road website, submit below .
           </p>
           <div class="row">
             <div class="col-8">
@@ -34,7 +33,7 @@ onMounted(() => {
                 variant="gradient"
                 color="success"
                 class="mb-0 h-100 position-relative z-index-2"
-                >Subscribe</MaterialButton
+                >Join us</MaterialButton
               >
             </div>
           </div>

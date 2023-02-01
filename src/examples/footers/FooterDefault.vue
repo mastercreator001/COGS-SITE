@@ -21,11 +21,6 @@ defineProps({
         icon: '<i class="fab fa-facebook text-lg opacity-8"></i>',
         link: "https://www.facebook.com/richard.mcmaster.942/"
       },
-      
-      {
-        icon: '<i class="fab fa-dribbble text-lg opacity-8"></i>',
-        link: "https:/"
-      },
       {
         icon: '<i class="fab fa-github text-lg opacity-8"></i>',
         link: "https://github.com/mastercreator001"

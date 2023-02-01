@@ -4,7 +4,6 @@ import HorizontalTeamCard from "@/examples/cards/teamCards/HorizontalTeamCard.vu
 
 // images
 import emma from "@/assets/img/team-5.jpg";
-import william from "@/assets/img/bruce-mars.jpg";
 import ivana from "@/assets/img/ivana-squares.jpg";
 import marquez from "@/assets/img/ivana-square.jpg";
 </script>
@@ -18,7 +17,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             The Team for C Of E Middle School
           </h3>
           <p class="text-white opacity-8 mb-0">
-            There’s nothing I really wanted to do in life that I wasn’t able to
+            There’s nothing I really wanted to do in life that I was unable to
             get good at. That’s my skill loading websites with meaning "Welly Road".
           </p>
         </div>
@@ -27,9 +26,9 @@ import marquez from "@/assets/img/ivana-square.jpg";
         <div class="col-lg-6 col-12">
           <HorizontalTeamCard
             class="mt-4"
-            :image="Richard"
+            
             :profile="{ name: 'Richard McMaster', link: 'javascript:;' }"
-            :position="{ label: 'UI Designer', color: 'success' }"
+            :position="{ label: 'Front End Design', color: 'success' }"
             description="Passion is something applied to a person of commiment, C Of E is my passion so I hope you enjoy the site ."
           />
         </div>
