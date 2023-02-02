@@ -72,7 +72,7 @@ Let us know your thoughts below. And good luck with development!
 
 - [Landing page](https://demos.creative-tim.com/vue-material-kit/#/pages/landing-pages/about-us?ref=readme-mkrp)
 - [Author page](https://demos.creative-tim.com/vue-material-kit/#/pages/landing-pages/author?ref=readme-mkrp)
-- [Sign in page](https://demos.creative-tim.com/vue-material-kit/#/pages/landing-pages/basic?ref=readme-mkrp)
+-
 
 [View More](https://demos.creative-tim.com/vue-material-kit/#/?ref=readme-mkp).
 

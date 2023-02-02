@@ -13,23 +13,15 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
             <RotatingCardFront
               image="https://images.unsplash.com/photo-1569683795645-b62e50fbf103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
               icon="touch_app"
-              title="Feel the <br /> Material Kit"
-              description="All the Bootstrap components that you need in a development have been
-        re-design with the new look."
+              title="Hello Welly Road,<br /> It's been a while "
+              description=" What's your 1st lesson you learn't to love ? And the one you hated the most?  Let us know in the Message section. "
             />
 
             <RotatingCardBack
               image="https://images.unsplash.com/photo-1498889444388-e67ea62c464b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1365&q=80"
-              title="Discover More"
-              description="You will save a lot of time going from prototyping to full-functional
-                code because all elements are implemented."
-              :action="[
-                {
-                  route: './/sections/page-sections/hero-sections.html',
-                  label: 'Start with Headers',
-                },
-              ]"
-            />
+              title="Breathe <br /> and feel the air across your face <br /> <br />Ready for the Bell?"
+              description=" Your back at middle school again with all your old friends, What's your 1st thought ?"
+              />
           </RotatingCard>
         </div>
         <div class="col-lg-6 ms-auto">

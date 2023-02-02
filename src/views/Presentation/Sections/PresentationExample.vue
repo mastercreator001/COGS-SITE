@@ -53,16 +53,12 @@ export default {
         <div class="row justify-content-center text-center my-sm-5">
           <div class="col-lg-6">
             <MaterialBadge color="success" class="mb-3"
-              >Infinite combinations</MaterialBadge
-            >
-
+              >Church Of England Middle School Wellington Road , <Br></Br> Newport Isle Of Wight <br> PO305TA</MaterialBadge><br>
+            <br>
             <h2 class="text-dark mb-0">Huge collection of stories and photos just waiting to be written by you</h2>
             <br>
-            <h2 Class=" text-dark mb-0"> Please submit stories memories and media via the links </h2>
-            <p class="lead">
-              <br>
-              We have created a flexiable website to grow and expand to cover all aspects of the school, life ,holidays.
-            </p>
+            <br>
+            <h2 Class=" text-dark mb-0"> Please submit your stories memories and media via the links. or email me</h2>
           </div>
         </div>
       </div>

@@ -62,7 +62,7 @@ onMounted(() => {
                 </div>
               </div>
               <p class="text-lg mb-0">
-                Hi and welcome back to C Of E Middle School or perhaps you prefer Welly Road. Whichever is the favourite this is the place to be for all the available content on the old school. I'm Richard and I host the sight for all ex students to enjoy, we welcome contributions photos and stories and anything relevan to the old school.
+                Hi and welcome back to C Of E Middle School or perhaps you prefer Welly Road. Whichever is the favourite this is the place to be for all the available content on the old school. I'm Richard and I host the site for all past students to enjoy. We welcome contributions photos and stories and anything relevant to the old school.
                 <br /><a
                   href="javascript:;"
                   class="text-success icon-move-right"
