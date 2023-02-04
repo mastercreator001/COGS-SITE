@@ -59,12 +59,13 @@ onUnmounted(() => {
         <div class="row">
           <div class="col-lg-7 text-center mx-auto position-relative">
             <h1
-              class="text-white pt-3 mt-n5 me-2"
-              :style="{ display: 'inline-block ' }"
+              class="text- pt-3 mt-n5 me-2"
+              :style="{ display: 'inline-block '}"
+              
             > Wellington Road <P></P> C Of E Middle School
             </h1>
-            <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              "Welly Road", And We're Back  In School.
+            <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '700' }">
+              "Welly Road", And School Is Now In, so welcome back...
             </p>
           </div>
         </div>

@@ -28,30 +28,7 @@ const bgImage =
         </button>
         <div class="collapse navbar-collapse" id="navbar-header-2">
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <RouterLink class="nav-link text-white" to="#"> Home </RouterLink>
-            </li>
-            <li class="nav-item">
-              <RouterLink class="nav-link text-white" to="#">
-                About Us
-              </RouterLink>
-            </li>
-            <li class="nav-item">
-              <RouterLink class="nav-link text-white" to="#">
-                Contact Us
-              </RouterLink>
-            </li>
-          </ul>
-
-          <ul class="nav navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link text-white"
-                href="Melon_man2000@hotmail.com"
-              >
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
+            </ul>
             <li class="nav-item">
               <a
                 class="nav-link text-white mx-2"
@@ -68,15 +45,15 @@ const bgImage =
                 <i class="fab fa-instagram"></i>
               </a>
             </li>
-          </ul>
+          
         </div>
       </div>
     </nav>
     <div
       class="page-header min-vh-100"
-      :style="{
-        backgroundImage: `url(${bgImage})`
+      :style="{Image: '@/src/assets/img/school/20200412_170100.jpg',
       }"
+    
       loading="lazy"
     >
       <span class="mask bg-gradient-dark opacity-5"></span>
@@ -85,22 +62,13 @@ const bgImage =
           <div
             class="col-lg-6 col-md-7 d-flex justify-content-center flex-column"
           >
-            <h1 class="text-white mb-4">Material Kit</h1>
+            <h1 class="text-white mb-4">Mr Knight</h1>
             <p class="text-white opacity-8 lead pe-5 me-5">
-              The time is now for it be okay to be great. People in this world
-              shun people for being nice.
+              The above image of Mr Knight the first headteacher of the school.
             </p>
-            <div class="buttons">
-              <MaterialButton color="white" class="mt-4"
-                >Get Started</MaterialButton
-              >
-              <MaterialButton color="none" class="text-white shadow-none mt-4"
-                >Read more</MaterialButton
-              >
             </div>
           </div>
         </div>
       </div>
-    </div>
   </header>
 </template>

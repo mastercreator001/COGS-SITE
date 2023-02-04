@@ -14,149 +14,182 @@ Coded by www.creative-tim.com
 */
 
 const imagesPrefix =
-  "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-design-system/presentation/sections";
+  "https://raw.githubusercontent.com/creativetimoffic/public-assets/master/material-design-system/presentation/sections";
 
-import imgPricing from "@/assets/img/pricing.png";
-import imgFeatures from "@/assets/img/features.png";
+import imgfelton from "@/assets/img/Headteachers/feltonimg.jpg";
 import imgBlogPosts from "@/assets/img/blog-posts.png";
 import imgTestimonials from "@/assets/img/testimonials.png";
 import imgTeam from "@/assets/img/team.png";
 import imgStat from "@/assets/img/stat.png";
 import imgContent from "@/assets/img/content.png";
-import imgPagination from "@/assets/img/pagination.png";
+import imgadvancedMap from "@/assets/img/school maps/advancedMap.jpg";
 import imgAlert from "@/assets/img/alerts.jpg";
 import imgPopover from "@/assets/img/popovers.jpg";
 import imgModal from "@/assets/img/modals.jpg";
 import imgDropdowns from "@/assets/img/dropdowns.jpg";
-
+import imgheadteachers from "@/assets/img/school/20200412_170100.jpg";
+import imgknight from "@/assets/img/headteachers/20200502_221414.jpg";
+import imgschoolMap from "@/assets/img/school maps/SCHOOLPLANFINAL.png";
+import imgbookMap from "@/assets/img/school maps/bookMap.jpg";
+import imgteachingStaff from "@/assets/img/school/school staff/teachingStaff.jpg";
+import imgcareTakers from "@/assets/img/school/school staff/careTaker.jpg";
+import imgmrsSmith from "@/assets/img/school/mrsSmith.jpg";
 export default [
   {
-    heading: "Staff",
+    heading: "Staff Heads/teachers & support staff",
     description:
-      "A Page of all known staff worked for the school",
+      "A Page of all known staff that worked for the school",
     items: [
       {
-        image: `${imagesPrefix}/headers.jpg`,
-        title: "Page Headers",
-        subtitle: "10 Examples",
+        image: imgheadteachers,
+        title: "Head Teachers",
+        subtitle: "4 Known head teachers",
         route: "page-headers",
         pro: false
       },
       {
-        image: imgFeatures,
-        title: "Features",
-        subtitle: "14 Examples",
+        image: imgknight,
+        title: "Deputy Head Teachers",
+        subtitle: "Deputy Heads",
         route: "page-features",
         pro: false
       },
       {
-        image: imgPricing,
-        title: "Pricing",
-        subtitle: "8 Examples",
+        image: imgfelton,
+        title: "Senoir Staff",
+        subtitle: "Year Heads",
         route: "presentation",
-        pro: true
+        pro: false
       },
       {
-        image: `${imagesPrefix}/faq.jpg`,
-        title: "FAQ",
-        subtitle: "1 Example",
+        image: imgteachingStaff,
+        title: "Teaching Staff",
+        subtitle: "A talented bunch",
         route: "presentation",
-        pro: true
+        pro: false
+      },
+      {
+        image: imgcareTakers,
+        title: "Caretakers",
+        subtitle: "Caretakes/Maintenance staff",
+        route: "presentation",
+        pro:false
+      },
+      {
+        image: imgmrsSmith,
+        title: "Dinner ladies",
+        subtitle: "As present as I rememeber in my time at school we're Mrs smith and Mrs Tout. Did you have any others in your timeif so let me know and I'l get them added to the wall. ",
+        route: "presentation",
+        pro: false
+      },
+   ]
+  },
+  {
+    heading: "Subjects",
+    description: "Eight primary Subjects we're studied at Welly Road",
+    items: [
+     {
+        image: imgTeam,
+        title: "Science",
+        subtitle: "Science Lab/Teachers",
+        route: "presentation",
+        pro:false
       },
       {
         image: imgBlogPosts,
-        title: "Blog Posts",
-        subtitle: "11 Examples",
+        title: "Maths",
+        subtitle: "Maths Teacher's",
         route: "presentation",
-        pro: true
+        pro:false
       },
       {
         image: imgTestimonials,
-        title: "Testimonials",
-        subtitle: "11 Examples",
+        title: "English",
+        subtitle: "English Teachers",
         route: "presentation",
-        pro: true
-      },
-      {
-        image: imgTeam,
-        title: "Teams",
-        subtitle: "6 Examples",
-        route: "presentation",
-        pro: true
+        pro:false
       },
       {
         image: imgStat,
-        title: "Stats",
-        subtitle: "3 Examples",
+        title: "P.E",
+        subtitle: "Physical Education teachers",
         route: "presentation",
-        pro: true
+        pro:false
       },
       {
         image: `${imagesPrefix}/call-to-action.jpg`,
-        title: "Call to Actions",
-        subtitle: "8 Examples",
+        title: "Kitchen staff",
+        subtitle: "Dinner Ladies",
         route: "presentation",
-        pro: true
+        pro:false
       },
-      {
-        image: `${imagesPrefix}/projects.jpg`,
-        title: "Applications",
-        subtitle: "6 Examples",
-        route: "presentation",
-        pro: true
-      },
-      {
-        image: `${imagesPrefix}/logo-area.jpg`,
-        title: "Logo Areas",
-        subtitle: "4 Examples",
-        route: "presentation",
-        pro: true
-      },
+      
       {
         image: `${imagesPrefix}/footers.jpg`,
-        title: "Footers",
-        subtitle: "10 Examples",
+        title: "French Teachers",
+        subtitle: "French",
         route: "presentation",
-        pro: true
+        pro:false
       },
       {
         image: `${imagesPrefix}/general-cards.jpg`,
-        title: "General Cards",
-        subtitle: "9 Examples",
+        title: "Library Staff/Nurses",
+        subtitle: "Library staff",
         route: "presentation",
-        pro: true
+        pro:false
       },
       {
         image: imgContent,
-        title: "Content Sections",
-        subtitle: "8 Examples",
+        title: "Music Studies",
+        subtitle: "Music Class/Tuition",
         route: "presentation",
-        pro: true
-      }
+        pro:false
+      },
+      {
+        image: imgContent,
+        title: "Design and Technology",
+        subtitle: "D.T Class",
+        route: "presentation",
+        pro:false
+      },
+      {
+        image: imgContent,
+        title: "Domestic Science ",
+        subtitle: "Cooking Class",
+        route: "presentation",
+        pro:false
+      },
+      {
+        image: imgContent,
+        title: "Art and Design",
+        subtitle: "Art",
+        route: "presentation",
+        pro:false
+      },
     ]
   },
   {
-    heading: "Navigation",
-    description: "30+ components that will help go through the pages",
+    heading: "School Maps",
+    description: "A Group of maps of the school",
     items: [
       {
-        image: `${imagesPrefix}/navbars.jpg`,
-        title: "Navbars",
-        subtitle: "4 Examples",
+        image: imgschoolMap,
+        title: "A reworked Image of the school in it's design phase",
+        subtitle: "Png hand drawn image in inkscape",
         route: "navigation-navbars",
         pro: false
       },
       {
-        image: `${imagesPrefix}/nav-tabs.jpg`,
+        image: imgbookMap,
         title: "Nav Tabs",
         subtitle: "2 Nav Tabs",
         route: "navigation-navtabs",
         pro: false
       },
       {
-        image: imgPagination,
-        title: "Pagination",
-        subtitle: "3 Examples",
+        image: imgadvancedMap,
+        title: "More detailed map",
+        subtitle: "A more detailed map with lanscaping andoptions included",
         route: "navigation-pagination",
         pro: false
       }
@@ -172,14 +205,14 @@ export default [
         title: "Newsletters",
         subtitle: "6 Examples",
         route: "presentation",
-        pro: true
+        pro:false
       },
       {
         image: `${imagesPrefix}/contact-sections.jpg`,
         title: "Contact Sections",
         subtitle: "8 Examples",
         route: "presentation",
-        pro: true
+        pro:false
       },
       {
         image: `${imagesPrefix}/forms.jpg`,
@@ -214,7 +247,7 @@ export default [
         title: "Notifications",
         subtitle: "3 Examples",
         route: "presentation",
-        pro: true
+        pro:false
       },
       {
         image: imgPopover,
@@ -270,7 +303,7 @@ export default [
         title: "Social Buttons",
         subtitle: "2 Examples",
         route: "presentation",
-        pro: true
+        pro:false
       },
       {
         image: `${imagesPrefix}/breadcrumbs.jpg`,
@@ -298,7 +331,7 @@ export default [
         title: "Tables",
         subtitle: "3 Examples",
         route: "presentation",
-        pro: true
+        pro:false
       },
       {
         image: `${imagesPrefix}/typography.jpg`,

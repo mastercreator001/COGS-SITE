@@ -56,7 +56,7 @@ import MaterialButton from "@/components/MaterialButton.vue";
 
     <div class="page-header min-vh-100"
       :style="{
-        backgroundImage: 'url(https://images.unsplash.com/photo-1520769945061-0a448c463865?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)',
+        backgroundImage: '@/src/assets/img/school/20200412_170100.jpg',
       }"
       loading="lazy">
       <span class="mask bg-gradient-dark opacity-5"></span>

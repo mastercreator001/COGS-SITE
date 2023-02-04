@@ -247,16 +247,12 @@ watch(
                 >
                   <span>Author</span>
                 </RouterLink>
-                <div
-                  class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-0 mt-3"
-                >
-                  Account
-                </div>
+                
                 <RouterLink
                   :to="{ name: 'signin-basic' }"
                   class="dropdown-item border-radius-md"
                 >
-                  <span>Sign In</span>
+                  <span></span>
                 </RouterLink>
               </div>
             </div>

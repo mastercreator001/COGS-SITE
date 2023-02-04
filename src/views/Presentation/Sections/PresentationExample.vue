@@ -55,10 +55,10 @@ export default {
             <MaterialBadge color="success" class="mb-3"
               >Church Of England Middle School Wellington Road , <Br></Br> Newport Isle Of Wight <br> PO305TA</MaterialBadge><br>
             <br>
-            <h2 class="text-dark mb-0">Huge collection of stories and photos just waiting to be written by you</h2>
+            <h2 class="text-dark mb-0">Huge collection of stories and photos just waiting to be written by you and published to everyone.</h2>
             <br>
             <br>
-            <h2 Class=" text-dark mb-0"> Please submit your stories memories and media via the links. or email me</h2>
+            <h2 Class=" text-dark mb-0"> Please submit your stories memories and media via the links or alternatively contact me via contact us.</h2>
           </div>
         </div>
       </div>

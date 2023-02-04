@@ -4,7 +4,7 @@ import { onMounted } from "vue";
 // Sections components
 import BaseLayout from "../../components/BaseLayout.vue";
 import View from "../../components/View.vue";
-
+import imgschoolMap from "@/assets/img/school maps/SCHOOLPLANFINAL.png";
 // Navbars page components
 import NavbarDark from "./components/NavbarDark.vue";
 
@@ -21,16 +21,15 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="Navbars"
-    :breadcrumb="[{ label: 'Navigation', route: '#' }, { label: 'Navbars' }]"
+    title="SVG School Map"
+    :breadcrumb="[{ label: 'Navigation', route: '#' }]"
   >
     <View
-      title="Navbar dark"
-      :code="navbarDarkCode"
-      id="navbar-dark"
+      title="A reworked Image of the school in it's design phase, built from an original image in Inkscape and created into a svg image"
+      id="School map 1"
       height="300  position-relative"
     >
-      <NavbarDark />
+      <schoolmap  />
     </View>
   </BaseLayout>
 </template>
