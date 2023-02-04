@@ -34,6 +34,22 @@ import imgbookMap from "@/assets/img/school maps/bookMap.jpg";
 import imgteachingStaff from "@/assets/img/school/school staff/teachingStaff.jpg";
 import imgcareTakers from "@/assets/img/school/school staff/careTaker.jpg";
 import imgmrsSmith from "@/assets/img/school/mrsSmith.jpg";
+import imgMaths from "@/assets/img/subjectImages/maths.png";
+import imgScience from "@/assets/img/subjectImages/science.png";
+import imgEnglish from "@/assets/img/subjectImages/english.png";
+import imgpE from "@/assets/img/subjectImages/pE.png";
+import imgdinnerLady1 from "@/assets/img/school/school staff/dinnerLady1.jpg";
+import imgdinnerLady2 from "@/assets/img/school/school staff/dinnerLady2.jpg";
+import imglibraryStaff from "@/assets/img/school/school staff/libraryStaff.jpg";
+import imgfrenchTeacher from "@/assets/img/school/school staff/frenchTeacher.jpg";
+import imgMusic from "@/assets/img/subjectImages/Music.png";
+import imgDt from "@/assets/img/subjectImages/Dt.png";
+import imgdomesticScience from "@/assets/img/subjectImages/domesticScience.png";
+import imgartAnddesign from "@/assets/img/subjectImages/artClass.png";
+import imgbbcComputer1 from "@/assets/img/subjectImages/bbcComputer1.jpg";
+import imgbbcComputer2 from "@/assets/img/subjectImages/bbcComputer2.png";
+import imgbbcComputer3 from "@/assets/img/subjectImages/bbcComputer3.png";
+import imgfloopyDisc from "@/assets/img/subjectImages/floopyDisc.png";
 export default [
   {
     heading: "Staff Heads/teachers & support staff",
@@ -45,43 +61,60 @@ export default [
         title: "Head Teachers",
         subtitle: "4 Known head teachers",
         route: "page-headers",
-        pro: false
-      },
+        },
       {
         image: imgknight,
         title: "Deputy Head Teachers",
         subtitle: "Deputy Heads",
         route: "page-features",
-        pro: false
-      },
+        },
       {
         image: imgfelton,
         title: "Senoir Staff",
         subtitle: "Year Heads",
         route: "presentation",
-        pro: false
-      },
+        },
       {
         image: imgteachingStaff,
         title: "Teaching Staff",
         subtitle: "A talented bunch",
         route: "presentation",
-        pro: false
-      },
+        },
       {
         image: imgcareTakers,
         title: "Caretakers",
         subtitle: "Caretakes/Maintenance staff",
         route: "presentation",
-        pro:false
       },
       {
         image: imgmrsSmith,
         title: "Dinner ladies",
-        subtitle: "As present as I rememeber in my time at school we're Mrs smith and Mrs Tout. Did you have any others in your timeif so let me know and I'l get them added to the wall. ",
+        subtitle: "As present as I rememeber in my time at school we're Mrs smith and Mrs Tout.",
         route: "presentation",
-        pro: false
-      },
+        },
+        {
+          image: imgdinnerLady1,
+          title: "Kitchen staff",
+          subtitle: "Dinner Ladies",
+          route: "presentation",
+          },
+          {
+            image: imgdinnerLady2,
+            title: "Kitchen staff",
+            subtitle: "Dinner Ladies",
+            route: "presentation",
+            },
+        {
+          image: imglibraryStaff,
+          title: "Library staff",
+          subtitle: "Mrs Colenutt as I remember, correct me if I'm wrong",
+          route: "presentation",
+          },
+          {
+            image: imgfrenchTeacher,
+            title: "French teacher Misss Forer",
+            subtitle: "Miss Forer had mutiple talents English French D.S",
+            },
    ]
   },
   {
@@ -89,82 +122,52 @@ export default [
     description: "Eight primary Subjects we're studied at Welly Road",
     items: [
      {
-        image: imgTeam,
+        image: imgScience,
         title: "Science",
         subtitle: "Science Lab/Teachers",
         route: "presentation",
-        pro:false
       },
       {
-        image: imgBlogPosts,
+        image: imgMaths,
         title: "Maths",
         subtitle: "Maths Teacher's",
         route: "presentation",
-        pro:false
       },
       {
-        image: imgTestimonials,
+        image: imgEnglish,
         title: "English",
         subtitle: "English Teachers",
         route: "presentation",
-        pro:false
       },
       {
-        image: imgStat,
+        image: imgpE,
         title: "P.E",
         subtitle: "Physical Education teachers",
         route: "presentation",
-        pro:false
       },
       {
-        image: `${imagesPrefix}/call-to-action.jpg`,
-        title: "Kitchen staff",
-        subtitle: "Dinner Ladies",
-        route: "presentation",
-        pro:false
-      },
-      
-      {
-        image: `${imagesPrefix}/footers.jpg`,
-        title: "French Teachers",
-        subtitle: "French",
-        route: "presentation",
-        pro:false
-      },
-      {
-        image: `${imagesPrefix}/general-cards.jpg`,
-        title: "Library Staff/Nurses",
-        subtitle: "Library staff",
-        route: "presentation",
-        pro:false
-      },
-      {
-        image: imgContent,
+        image: imgMusic,
         title: "Music Studies",
         subtitle: "Music Class/Tuition",
         route: "presentation",
-        pro:false
       },
       {
-        image: imgContent,
+        image: imgDt,
         title: "Design and Technology",
         subtitle: "D.T Class",
         route: "presentation",
-        pro:false
       },
       {
-        image: imgContent,
+        image: imgdomesticScience,
         title: "Domestic Science ",
         subtitle: "Cooking Class",
         route: "presentation",
-        pro:false
       },
       {
-        image: imgContent,
+        image: imgartAnddesign,
         title: "Art and Design",
         subtitle: "Art",
         route: "presentation",
-        pro:false
       },
     ]
   },
@@ -177,57 +180,50 @@ export default [
         title: "A reworked Image of the school in it's design phase",
         subtitle: "Png hand drawn image in inkscape",
         route: "navigation-navbars",
-        pro: false
-      },
+        },
       {
         image: imgbookMap,
         title: "Nav Tabs",
         subtitle: "2 Nav Tabs",
         route: "navigation-navtabs",
-        pro: false
-      },
+        },
       {
         image: imgadvancedMap,
         title: "More detailed map",
         subtitle: "A more detailed map with lanscaping andoptions included",
         route: "navigation-pagination",
-        pro: false
-      }
+        }
     ]
   },
   {
-    heading: "Input Areas",
+    heading: "Computer Programing",
     description:
-      "50+ elements that you need for text manipulation and insertion",
+      "A short trip into the new school innovation, BBC Computers ??",
     items: [
       {
-        image: `${imagesPrefix}/newsletters.jpg`,
-        title: "Newsletters",
-        subtitle: "6 Examples",
+        image: imgbbcComputer1,
+        title: "Does anyone rememeber these computers with the floppy disc drive?  ",
+        subtitle: "Classics but very innovative for the 80's. Always a que at lunch for a computer",
         route: "presentation",
-        pro:false
       },
       {
-        image: `${imagesPrefix}/contact-sections.jpg`,
-        title: "Contact Sections",
-        subtitle: "8 Examples",
+        image: imgbbcComputer2,
+        title: "Such power we had never used",
+        subtitle: "The BBC was an extraordinary piece of kit and the school as a leader in the field",
         route: "presentation",
-        pro:false
       },
       {
-        image: `${imagesPrefix}/forms.jpg`,
-        title: "Forms",
-        subtitle: "3 Examples",
+        image: imgbbcComputer3,
+        title: "A considerable upgrade in the end as BBC develpoment and potiental proved popular ",
+        subtitle: "The upgraded model with casette access on the keyboard",
         route: "inputareas-forms",
-        pro: false
-      },
+        },
       {
-        image: `${imagesPrefix}/inputs.jpg`,
-        title: "Inputs",
-        subtitle: "6 Examples",
+        image: imgfloopyDisc,
+        title: "The discs we're massive as you might remember, or our hands were small",
+        subtitle: "Floopy Discs we're quite the innovation in their day, do you remember sharing games at lunch time ",
         route: "inputareas-inputs",
-        pro: false
-      }
+        }
     ]
   },
   {
@@ -240,29 +236,25 @@ export default [
         title: "Alerts",
         subtitle: "4 Examples",
         route: "ac-alerts",
-        pro: false
-      },
+        },
       {
         image: `${imagesPrefix}/toasts.jpg`,
         title: "Notifications",
         subtitle: "3 Examples",
         route: "presentation",
-        pro:false
       },
       {
         image: imgPopover,
         title: "Tooltips & Popovers",
         subtitle: "2 Examples",
         route: "ac-tooltips-popovers",
-        pro: false
-      },
+        },
       {
         image: imgModal,
         title: "Modals",
         subtitle: "5 Examples",
         route: "ac-modals",
-        pro: false
-      }
+        }
     ]
   },
   {
@@ -275,71 +267,61 @@ export default [
         title: "Buttons",
         subtitle: "6 Examples",
         route: "el-buttons",
-        pro: false
-      },
+        },
       {
         image: `${imagesPrefix}/avatars.jpg`,
         title: "Avatars",
         subtitle: "2 Examples",
         route: "el-avatars",
-        pro: false
-      },
+        },
       {
         image: imgDropdowns,
         title: "Dropdowns",
         subtitle: "2 Examples",
         route: "el-dropdowns",
-        pro: false
-      },
+        },
       {
         image: `${imagesPrefix}/switch.jpg`,
         title: "Toggles",
         subtitle: "2 Examples",
         route: "el-toggles",
-        pro: false
-      },
+        },
       {
         image: `${imagesPrefix}/social-buttons.jpg`,
         title: "Social Buttons",
         subtitle: "2 Examples",
         route: "presentation",
-        pro:false
       },
       {
         image: `${imagesPrefix}/breadcrumbs.jpg`,
         title: "Breadcrumbs",
         subtitle: "1 Example",
         route: "el-breadcrumbs",
-        pro: false
-      },
+        },
       {
         image: `${imagesPrefix}/badges.jpg`,
         title: "Badges",
         subtitle: "3 Examples",
         route: "el-badges",
-        pro: false
-      },
+        },
       {
         image: `${imagesPrefix}/progress.jpg`,
         title: "Progress Bars",
         subtitle: "4 Examples",
         route: "el-progress-bars",
-        pro: false
-      },
+        },
       {
         image: `${imagesPrefix}/tables.jpg`,
         title: "Tables",
         subtitle: "3 Examples",
         route: "presentation",
-        pro:false
       },
       {
         image: `${imagesPrefix}/typography.jpg`,
         title: "Typography",
         subtitle: "2 Examples",
         route: "el-typography",
-        pro: false
-      }
+        }
     ]
   }
 ];

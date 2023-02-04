@@ -59,7 +59,7 @@ onUnmounted(() => {
         <div class="row">
           <div class="col-lg-7 text-center mx-auto position-relative">
             <h1
-              class="text- pt-3 mt-n5 me-2"
+              class="text-white pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block '}"
               
             > Wellington Road <P></P> C Of E Middle School
