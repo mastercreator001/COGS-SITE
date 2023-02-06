@@ -27,7 +27,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
         <div class="col-lg-6 ms-auto">
           <div class="row justify-content-start">
             <DefaultInfoCard
-              icon="content_copy"
+              icon="account_group"
               title="School Staff"
               description=" A school is only ever as goood as the teachers you have teaching,find the staff and add suggestions for staff not included in the current list."
             />
@@ -46,7 +46,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
             />
             <DefaultInfoCard
               class="mt-3"
-              icon="devices"
+              icon="account_group"
               title="The demolition of the school"
               description="Regardless of how you felt about the school the eventual demolition is a sad moment here we take a look into the destruction process."
             />

@@ -60,11 +60,11 @@ onUnmounted(() => {
           <div class="col-lg-7 text-center mx-auto position-relative">
             <h1
               class="text-white pt-3 mt-n5 me-2"
-              style="display:inline-block;background-color: rgba(3,3,3,0.4);padding:20px;"
-              
+              style="display:inline-block;background-color: rgba(3,3,3,0.2);padding: 5px 50px 50px 50px;"
+            
             > Wellington Road <P></P> C Of E Middle School
             </h1>
-            <p class="lead text-white px-5 mt-3" style="font-weight:700;background-color: rgba(3,3,3,0.4);padding: 20px;">
+            <p class="lead text-white px-5 mt-3" style="font-weight:700;background-color: rgba(3,3,3,0.2);padding:1px">
               "Welly Road", And School Is Now In, so welcome back...
             </p>
           </div>

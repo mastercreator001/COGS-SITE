@@ -104,7 +104,7 @@ import SimplePricingCard from "@/examples/cards/pricingCards/SimplePricingCard.v
           <div class="col-md-12">
             <p class="text-center mt-5">
               <i class="fa fa-lock" aria-hidden="true"></i> Secured Payment by
-              <b> 2Checkout </b> with: <br /><br />
+              <b> ripuoff </b> with: <br /><br />
               <i class="fa fa-cc-paypal fa-2x me-1" aria-hidden="true"></i>
               <i class="fa fa-cc-visa fa-2x" aria-hidden="true"></i>
               <i class="fa fa-cc-mastercard fa-2x mx-1" aria-hidden="true"></i>
