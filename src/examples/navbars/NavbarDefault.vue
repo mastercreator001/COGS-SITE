@@ -596,7 +596,7 @@ watch(
                         <h6
                           class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                         >
-                          Input Areas
+                          Input rear
                         </h6>
                       </div>
                     </div>

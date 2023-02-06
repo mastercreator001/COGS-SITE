@@ -21,11 +21,11 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="Forms"
+    title="The Upgraded Computer"
     :breadcrumb="[{ label: 'Input Areas', route: '#' }, { label: 'Forms' }]"
   >
     <View
-      title="Form simple"
+      title="The actual Killer computer"
       :code="formSimpleCode"
       id="form-simple"
       height="600"

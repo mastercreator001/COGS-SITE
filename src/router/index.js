@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import PresentationView from "../views/Presentation/PresentationView.vue";
+import PresentationTeachers from "../views/Presentation/Sections/PresentationTeachers.vue";
 import AboutView from "../views/LandingPages/AboutUs/AboutView.vue";
 import ContactView from "../views/LandingPages/ContactUs/ContactView.vue";
 import AuthorView from "../views/LandingPages/Author/AuthorView.vue";
@@ -35,6 +36,11 @@ const router = createRouter({
       path: "/pages/landing-pages/about-us",
       name: "about",
       component: AboutView,
+    },
+    {
+      path: "/Teachers",
+      name: "teachers",
+      component: PresentationTeachers,
     },
     {
       path: "/pages/landing-pages/contact-us",

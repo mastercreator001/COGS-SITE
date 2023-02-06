@@ -32,7 +32,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
               description=" A school is only ever as goood as the teachers you have teaching,find the staff and add suggestions for staff not included in the current list."
             />
             <DefaultInfoCard
-              icon="flip_to_front"
+              icon="school_outline"
               title="The School's History"
               description=" The definitive guide to the school and the history formed during the 38 years the school was open for, perhaps you can add to what we have."
             />

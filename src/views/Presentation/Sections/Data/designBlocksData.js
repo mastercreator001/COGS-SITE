@@ -17,11 +17,6 @@ const imagesPrefix =
   "https://raw.githubusercontent.com/creativetimoffic/public-assets/master/material-design-system/presentation/sections";
 
 import imgfelton from "@/assets/img/Headteachers/feltonimg.jpg";
-import imgBlogPosts from "@/assets/img/blog-posts.png";
-import imgTestimonials from "@/assets/img/testimonials.png";
-import imgTeam from "@/assets/img/team.png";
-import imgStat from "@/assets/img/stat.png";
-import imgContent from "@/assets/img/content.png";
 import imgadvancedMap from "@/assets/img/school maps/advancedMap.jpg";
 import imgAlert from "@/assets/img/alerts.jpg";
 import imgPopover from "@/assets/img/popovers.jpg";
@@ -60,13 +55,13 @@ export default [
         image: imgheadteachers,
         title: "Head Teachers",
         subtitle: "4 Known head teachers",
-        route: "page-headers",
+        route: "teachers",
         },
       {
         image: imgknight,
         title: "Deputy Head Teachers",
         subtitle: "Deputy Heads",
-        route: "page-features",
+        route: "teachers",
         },
       {
         image: imgfelton,
