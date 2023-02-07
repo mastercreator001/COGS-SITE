@@ -18,7 +18,6 @@ const imagesPrefix =
 
 import imgfelton from "@/assets/img/Headteachers/feltonimg.jpg";
 import imgadvancedMap from "@/assets/img/school maps/advancedMap.jpg";
-import imgDropdowns from "@/assets/img/dropdowns.jpg";
 import imgharrison from "@/assets/img/Headteachers/harrison.jpg";
 import imgteachersgroupbw from "@/assets/img/headteachers/teachersgroupbw.jpg";
 import imgschoolMap from "@/assets/img/school maps/SCHOOLPLANFINAL.png";
@@ -43,8 +42,17 @@ import imgbbcComputer2 from "@/assets/img/subjectImages/bbcComputer2.png";
 import imgbbcComputer3 from "@/assets/img/subjectImages/bbcComputer3.png";
 import imgfloopyDisc from "@/assets/img/subjectImages/floopyDisc.png";
 import imgschoolopening from "@/assets/img/Attentioncatchers/schoolopening.jpg";
-import imgtrinitymiddlefire22 from "@/assets/img/Attentioncatchers/trinitymiddlefire2.jpg";
-import imgfrontview from "@/assets/img/Attentioncatchers/frontview.jpg";
+import imgtrinitymiddlefire22 from "@/assets/img/Attentioncatchers/trinitymiddlefire22.jpg";
+import imgoctogonWindow from "@/assets/img/Attentioncatchers/octogonWindow.jpg";
+import imgweald from "@/assets/img/schoolTrips/weald.jpg";
+import imgtotlandYouthhostel from "@/assets/img/schoolTrips/totlandYouthhostel.png";
+import imgnewfieldHall from "@/assets/img/schoolTrips/newfieldHall.png";
+import imgpooleFlag from "@/assets/img/schoolTrips/pooleFlag.png";
+import imgcarisbrookeCastle from "@/assets/img/schoolTrips/carisbrookeCastle.png";
+import imgromanVillanewport from "@/assets/img/schoolTrips/romanVillanewport.png";
+import imgtripsOut from "@/assets/img/schoolTrips/tripsOut.jpg";
+import imgosbourneHouse from "@/assets/img/schoolTrips/osbourneHouse.png";
+import imgapolloTheatre from "@/assets/img/schoolTrips/apolloTheatre.png";
 
 export default [
   {
@@ -240,7 +248,7 @@ export default [
         route: "presentation",
       },
      {
-        image: imgfrontview,
+        image: imgoctogonWindow,
         title: "School Building Images",
         subtitle: "Some site images of the building and grounds",
         route: "ac-modals",
@@ -248,70 +256,64 @@ export default [
     ]
   },
   {
-    heading: "Elements",
+    heading: "School Trips years 1-4",
     description:
-      "80+ carefully crafted small elements that come with multiple colors and shapes",
+      "School trips from the C Of E Middle School 1971-1990 ",
     items: [
       {
-        image: `${imagesPrefix}/buttons.jpg`,
-        title: "Buttons",
-        subtitle: "6 Examples",
+        image: imgweald,
+        title: "1st years Singleton",
+        subtitle: "1st years trips away to the Weald and Downland open air historical museum.",
         route: "el-buttons",
         },
       {
-        image: `${imagesPrefix}/avatars.jpg`,
-        title: "Avatars",
-        subtitle: "2 Examples",
+        image: imgtotlandYouthhostel,
+        title: "Totland YMCA Youth Hostel",
+        subtitle: "2nd Year school visit to Totland",
         route: "el-avatars",
         },
       {
-        image: imgDropdowns,
-        title: "Dropdowns",
-        subtitle: "2 Examples",
+        image: imgnewfieldHall,
+        title: "Malham Yorkshire, Malham Cove, Imax, Jorvik",
+        subtitle: "3rd Year trip away to Newfield Hall Yorkshire",
         route: "el-dropdowns",
         },
       {
-        image: `${imagesPrefix}/switch.jpg`,
-        title: "Toggles",
-        subtitle: "2 Examples",
+        image: imgpooleFlag,
+        title: "Poole in Dorset Adventure Center",
+        subtitle: "4th Year Visit to Poole In Dorset Adventure Center",
         route: "el-toggles",
         },
       {
-        image: `${imagesPrefix}/social-buttons.jpg`,
-        title: "Social Buttons",
-        subtitle: "2 Examples",
+        image: imgcarisbrookeCastle,
+        title: "Carisbrooke Castle",
+        subtitle: "Carisbrooke Castle various visits",
         route: "presentation",
       },
       {
-        image: `${imagesPrefix}/breadcrumbs.jpg`,
-        title: "Breadcrumbs",
-        subtitle: "1 Example",
+        image: imgromanVillanewport,
+        title: "Roman Villa Newport",
+        subtitle: "A staple of education was Newport Roman Villa hidden in a small town street",
         route: "el-breadcrumbs",
         },
       {
-        image: `${imagesPrefix}/badges.jpg`,
-        title: "Badges",
-        subtitle: "3 Examples",
+        image: imgtripsOut,
+        title: "Various Trips out across the Island",
+        subtitle: "As some students didn't attend Malham or Poole other options were available to students ",
         route: "el-badges",
         },
       {
-        image: `${imagesPrefix}/progress.jpg`,
-        title: "Progress Bars",
-        subtitle: "4 Examples",
+        image: imgosbourneHouse,
+        title: "Osbourne House",
+        subtitle: "How many times have you visited Osbourne House, a school staple",
         route: "el-progress-bars",
         },
       {
-        image: `${imagesPrefix}/tables.jpg`,
-        title: "Tables",
-        subtitle: "3 Examples",
+        image: imgapolloTheatre,
+        title: "Apollo Theatre Trip",
+        subtitle: " Apollo School Trip, what did you go and see ?",
         route: "presentation",
       },
-      {
-        image: `${imagesPrefix}/typography.jpg`,
-        title: "Typography",
-        subtitle: "2 Examples",
-        route: "el-typography",
-        }
-    ]
+      ]
   }
 ];
