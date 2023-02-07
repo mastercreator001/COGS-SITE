@@ -18,7 +18,7 @@ Icon colors
   fill: #7ea6f6;
 }
 
-.icon.icon-outline use {
+.icon.group_outline use {
   /* icon secondary color - stroke */
   stroke: #7ea6f6;
 }
@@ -58,7 +58,7 @@ Align icon and text
 .icon-text-aligner {
   /* add this class to parent element that contains icon + text */
   display: flex;
-  align-items: center;
+  align-items:left;
 }
 
 .icon-text-aligner .icon {
@@ -71,7 +71,7 @@ Align icon and text
   fill: currentColor;
 }
 
-.icon-text-aligner .icon.icon-outline use {
+.icon-text-aligner .icon.group_outline use {
   stroke: currentColor;
 }
 
@@ -86,7 +86,7 @@ Icon reset values - used to enable color customizations
   stroke: none;
 }
 
-.icon.icon-outline {
+.icon.group_outline {
   fill: none;
   stroke: currentColor;
 }
@@ -95,7 +95,7 @@ Icon reset values - used to enable color customizations
   stroke: none;
 }
 
-.icon.icon-outline use {
+.icon.group_outline use {
   fill: none;
 }
 
@@ -109,24 +109,24 @@ Stroke effects - Nucleo outline icons
 
 -------------------------------- */
 
-.icon-outline.icon-stroke-1 {
+.group_outline.icon-stroke-1 {
   stroke-width: 1px;
 }
 
-.icon-outline.icon-stroke-2 {
+.group_outline.icon-stroke-2 {
   stroke-width: 2px;
 }
 
-.icon-outline.icon-stroke-3 {
+.group_outline.icon-stroke-3 {
   stroke-width: 3px;
 }
 
-.icon-outline.icon-stroke-4 {
+.group_outline.icon-stroke-4 {
   stroke-width: 4px;
 }
 
-.icon-outline.icon-stroke-1 use,
-.icon-outline.icon-stroke-3 use {
+.group_outline.icon-stroke-1 use,
+.group_outline.icon-stroke-3 use {
   -webkit-transform: translateX(0.5px) translateY(0.5px);
   -moz-transform: translateX(0.5px) translateY(0.5px);
   -ms-transform: translateX(0.5px) translateY(0.5px);

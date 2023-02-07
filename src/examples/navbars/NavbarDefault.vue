@@ -512,13 +512,13 @@ watch(
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-toggles' }"
+                        :to="{ name: ' Attention Catchers articles ' }"
                       >
                         Current site status
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
-                        :to="{ name: 'el-typography' }"
+                        :to="{ name: 'Attention Catchers articles ' }"
                       >
                       History
                       
@@ -621,7 +621,7 @@ watch(
                         <h6
                           class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                         >
-                          Attention Catchers
+                          Attention Catchers Articles
                         </h6>
                       </div>
                     </div>
@@ -652,7 +652,8 @@ watch(
                         <h6
                           class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                         >
-                          Elements
+                          Elemements
+                        
                         </h6>
                       </div>
                     </div>

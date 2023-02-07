@@ -22,8 +22,8 @@ import imgAlert from "@/assets/img/alerts.jpg";
 import imgPopover from "@/assets/img/popovers.jpg";
 import imgModal from "@/assets/img/modals.jpg";
 import imgDropdowns from "@/assets/img/dropdowns.jpg";
-import imgheadteachers from "@/assets/img/school/20200412_170100.jpg";
-import imgknight from "@/assets/img/headteachers/20200502_221414.jpg";
+import imgharrison from "@/assets/img/Headteachers/harrison.jpg";
+import imgteachersgroupbw from "@/assets/img/headteachers/teachersgroupbw.jpg";
 import imgschoolMap from "@/assets/img/school maps/SCHOOLPLANFINAL.png";
 import imgbookMap from "@/assets/img/school maps/bookMap.jpg";
 import imgteachingStaff from "@/assets/img/school/school staff/teachingStaff.jpg";
@@ -45,6 +45,10 @@ import imgbbcComputer1 from "@/assets/img/subjectImages/bbcComputer1.jpg";
 import imgbbcComputer2 from "@/assets/img/subjectImages/bbcComputer2.png";
 import imgbbcComputer3 from "@/assets/img/subjectImages/bbcComputer3.png";
 import imgfloopyDisc from "@/assets/img/subjectImages/floopyDisc.png";
+import imgschoolopening from "@/src/assets/img/Attention catchers/schoolopening.jpg";
+import imgtrinitymiddlefire2 from "@/src/assets/img/trinitymiddlefire2/Attention catchers.jpg";
+import imgoctogonwindow from "@/src/assets/img/Attention catchers/octogonwindow.jpeg";
+
 export default [
   {
     heading: "Staff Heads/teachers & support staff",
@@ -52,19 +56,19 @@ export default [
       "A Page of all known staff that worked for the school",
     items: [
       {
-        image: imgheadteachers,
+        image: imgharrison,
         title: "Head Teachers",
         subtitle: "4 Known head teachers",
         route: "teachers",
         },
       {
-        image: imgknight,
+        image: imgfelton,
         title: "Deputy Head Teachers",
         subtitle: "Deputy Heads",
         route: "teachers",
         },
       {
-        image: imgfelton,
+        image: imgteachersgroupbw,
         title: "Senoir Staff",
         subtitle: "Year Heads",
         route: "presentation",
@@ -222,34 +226,31 @@ export default [
     ]
   },
   {
-    heading: "Attention Catchers",
+    heading: "Attention Catching Articles",
     description:
-      "20+ Fully coded components that popup from different places of the screen",
+      "A brief catch up on the hottest articles to hit the website about the Welly Road School, opening, closing ",
     items: [
       {
-        image: imgAlert,
-        title: "Alerts",
-        subtitle: "4 Examples",
+        image: imgschoolopening,
+        title: "School Opening A brief history",
+        subtitle: "The 4th of february 1971 the school was opened by Reverand R.V Scrunby ",
+        text:"",
         route: "ac-alerts",
-        },
-      {
-        image: `${imagesPrefix}/toasts.jpg`,
-        title: "Notifications",
-        subtitle: "3 Examples",
-        route: "presentation",
+      
       },
       {
-        image: imgPopover,
-        title: "Tooltips & Popovers",
-        subtitle: "2 Examples",
-        route: "ac-tooltips-popovers",
-        },
-      {
-        image: imgModal,
-        title: "Modals",
-        subtitle: "5 Examples",
+        image: imgtrinitymiddlefire2,
+        title: "School Closing A brief summary",
+        subtitle: "The school closed 31st August 2008 (site remained open under Christ The King)",
+        route: "presentation",
+      },
+     {
+        image: imgoctogonwindow,
+        title: "School Building Images",
+        subtitle: "Some site images of the building and grounds",
         route: "ac-modals",
-        }
+        alt:"picture of school"
+      }
     ]
   },
   {
