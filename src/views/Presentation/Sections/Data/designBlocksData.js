@@ -234,9 +234,7 @@ export default [
         image: imgschoolopening,
         title: "School Opening A brief history",
         subtitle: "The 4th of february 1971 the school was opened by Reverand R.V Scrunby ",
-        text:"",
         route: "ac-alerts",
-      
       },
       {
         image: imgtrinitymiddlefire22,
@@ -249,7 +247,6 @@ export default [
         title: "School Building Images",
         subtitle: "Some site images of the building and grounds",
         route: "ac-modals",
-        alt:"picture of school"
       }
     ]
   },
