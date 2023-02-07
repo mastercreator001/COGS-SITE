@@ -18,9 +18,6 @@ const imagesPrefix =
 
 import imgfelton from "@/assets/img/Headteachers/feltonimg.jpg";
 import imgadvancedMap from "@/assets/img/school maps/advancedMap.jpg";
-import imgAlert from "@/assets/img/alerts.jpg";
-import imgPopover from "@/assets/img/popovers.jpg";
-import imgModal from "@/assets/img/modals.jpg";
 import imgDropdowns from "@/assets/img/dropdowns.jpg";
 import imgharrison from "@/assets/img/Headteachers/harrison.jpg";
 import imgteachersgroupbw from "@/assets/img/headteachers/teachersgroupbw.jpg";
@@ -46,7 +43,7 @@ import imgbbcComputer2 from "@/assets/img/subjectImages/bbcComputer2.png";
 import imgbbcComputer3 from "@/assets/img/subjectImages/bbcComputer3.png";
 import imgfloopyDisc from "@/assets/img/subjectImages/floopyDisc.png";
 import imgschoolopening from "@/assets/img/Attentioncatchers/schoolopening.jpg";
-import imgtrinitymiddlefire22 from "@/assets/img/trinitymiddlefire2/Attentioncatchers.jpg";
+import imgtrinitymiddlefire22 from "@/assets/img/Attentioncatchers/trinitymiddlefire2.jpg";
 import imgfrontview from "@/assets/img/Attentioncatchers/frontview.jpg";
 
 export default [
