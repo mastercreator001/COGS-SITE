@@ -45,9 +45,9 @@ import imgbbcComputer1 from "@/assets/img/subjectImages/bbcComputer1.jpg";
 import imgbbcComputer2 from "@/assets/img/subjectImages/bbcComputer2.png";
 import imgbbcComputer3 from "@/assets/img/subjectImages/bbcComputer3.png";
 import imgfloopyDisc from "@/assets/img/subjectImages/floopyDisc.png";
-import imgschoolopening from "@/src/assets/img/Attention catchers/schoolopening.jpg";
-import imgtrinitymiddlefire2 from "@/src/assets/img/trinitymiddlefire2/Attention catchers.jpg";
-import imgoctogonwindow from "@/src/assets/img/Attention catchers/octogonwindow.jpeg";
+import imgschoolopening from "@/assets/img/Attentioncatchers/schoolopening.jpg";
+import imgtrinitymiddlefire22 from "@/assets/img/trinitymiddlefire2/Attentioncatchers.jpg";
+import imgfrontview from "@/assets/img/Attentioncatchers/frontview.jpg";
 
 export default [
   {
@@ -239,13 +239,13 @@ export default [
       
       },
       {
-        image: imgtrinitymiddlefire2,
+        image: imgtrinitymiddlefire22,
         title: "School Closing A brief summary",
         subtitle: "The school closed 31st August 2008 (site remained open under Christ The King)",
         route: "presentation",
       },
      {
-        image: imgoctogonwindow,
+        image: imgfrontview,
         title: "School Building Images",
         subtitle: "Some site images of the building and grounds",
         route: "ac-modals",
