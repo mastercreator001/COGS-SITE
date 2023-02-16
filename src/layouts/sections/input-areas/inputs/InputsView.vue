@@ -37,18 +37,18 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="Inputs"
-    :breadcrumb="[{ label: 'Input Areas', route: '#' }, { label: 'Inputs' }]"
+    title="Data Storage on a new level "
+    :breadcrumb="[{ label: 'The future of storage', route: '#' }, { label: 'Floopy revolution' }]"
   >
-    <View title="Input dynamic" :code="inputDynamicCode" id="input-dynamic">
+    <View title="The New way to store Data" :code="inputDynamicCode" id="input-dynamic">
       <InputDynamic />
     </View>
 
-    <View title="Input static" :code="inputStaticCode" id="input-static">
+    <View title="🌐 How much data will a high density (hd) floppy disk hold" :code="inputStaticCode" id="input-static">
       <InputStatic />
     </View>
 
-    <View title="Input outline" :code="inputOutlinedCode" id="input-outlined">
+    <View title="To equal 1 Gigabyte, you would need 1,456 720 KB floppy disks. In the late 80's, the 5.25-inch floppy disk was on its way out and in 1987 the 3.5-inchfloppy disk had moved into the high density category with a capacity of 1.44 MB." :code="inputOutlinedCode" id="input-outlined">
       <inputOutlined />
     </View>
 
