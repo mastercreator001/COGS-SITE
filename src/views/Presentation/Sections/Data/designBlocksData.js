@@ -206,9 +206,9 @@ export default [
     ]
   },
   {
-    heading: "Computer Programing",
+    heading: "Computer Programming",
     description:
-      "A short trip into the new school innovation, BBC Computers ??",
+      "A short trip into the innovations at the school, BBC Computers ??",
     items: [
       {
         image: imgbbcComputer1,
