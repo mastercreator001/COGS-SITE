@@ -53,7 +53,7 @@ import imgromanVillanewport from "@/assets/img/schoolTrips/romanVillanewport.png
 import imgtripsOut from "@/assets/img/schoolTrips/tripsOut.jpg";
 import imgosbourneHouse from "@/assets/img/schoolTrips/osbourneHouse.png";
 import imgapolloTheatre from "@/assets/img/schoolTrips/apolloTheatre.png";
-
+import imgfinalschoolMap from "@/assets/img/school maps/finalMapCTK.png";
 export default [
   {
     heading: "Staff Heads/teachers & support staff",
@@ -196,7 +196,13 @@ export default [
         title: "More detailed map",
         subtitle: "A more detailed map with lanscaping andoptions included",
         route: "navigation-pagination",
-        }
+        },
+        {
+          image: imgfinalschoolMap,
+          title: "A map of the school after it was transferred from C Of E to Christ The King Lower Campus",
+          subtitle: "Lower campus< final Map of layout before demolition",
+          route: "navigation-navbars",
+          },
     ]
   },
   {
