@@ -61,64 +61,85 @@ export default [
       "A Page of all known staff that worked for the school",
     items: [
       {
+        id: 1,
         image: imgharrison,
         title: "Head Teachers",
         subtitle: "4 Known head teachers",
-        route: "teachers",
+        route: "staff",
+        text: "This is the text block...."
         },
       {
+        id: 2,
         image: imgfelton,
         title: "Deputy Head Teachers",
         subtitle: "Deputy Heads",
-        route: "teachers",
+        route: "staff",
+        text: "This is the <b>text</b> block...."
         },
       {
+        id: 3,
         image: imgteachersgroupbw,
         title: "Senoir Staff",
         subtitle: "Year Heads",
-        route: "presentation",
+        route: "staff",
+        text: "This is the <i>text</i> block...."
         },
       {
+        id: 4,
         image: imgteachingStaff,
         title: "Teaching Staff",
         subtitle: "A talented bunch",
-        route: "presentation",
+        route: "staff",
+        text: "This is the text block...."
         },
       {
+        id: 5,
         image: imgcareTakers,
         title: "Caretakers",
         subtitle: "Caretakes/Maintenance staff",
-        route: "presentation",
+        route: "staff",
+        text: "This is the text block...."
       },
       {
+        id: 6,
         image: imgmrsSmith,
         title: "Dinner ladies",
         subtitle: "As present as I rememeber in my time at school we're Mrs smith and Mrs Tout.",
-        route: "presentation",
-        },
-        {
-          image: imgdinnerLady1,
-          title: "Kitchen staff",
-          subtitle: "Dinner Ladies",
-          route: "presentation",
-          },
-          {
-            image: imgdinnerLady2,
-            title: "Kitchen staff",
-            subtitle: "Dinner Ladies",
-            route: "presentation",
-            },
-        {
-          image: imglibraryStaff,
-          title: "Library staff",
-          subtitle: "Mrs Colenutt as I remember, correct me if I'm wrong",
-          route: "presentation",
-          },
-          {
-            image: imgfrenchTeacher,
-            title: "French teacher Misss Forer",
-            subtitle: "Miss Forer had mutiple talents English French D.S",
-            },
+        route: "staff",
+        text: "This is the text block...."
+      },
+      {
+        id: 7,
+        image: imgdinnerLady1,
+        title: "Kitchen staff",
+        subtitle: "Dinner Ladies",
+        route: "staff",
+        text: "This is the text block...."
+      },
+      {
+        id: 8,
+        image: imgdinnerLady2,
+        title: "Kitchen staff",
+        subtitle: "Dinner Ladies",
+        route: "staff",
+        text: "This is the text block...."
+      },
+      {
+        id: 9,
+        image: imglibraryStaff,
+        title: "Library staff",
+        subtitle: "Mrs Colenutt as I remember, correct me if I'm wrong",
+        route: "staff",
+        text: "This is the text block...."
+      },
+      {
+        id: 10,
+        image: imgfrenchTeacher,
+        title: "French teacher Misss Forer",
+        subtitle: "Miss Forer had mutiple talents English French D.S",
+        route: "staff",
+        text: "This is the text block...."
+      },
    ]
   },
   {
@@ -126,52 +147,60 @@ export default [
     description: "Eight primary Subjects we're studied at Welly Road",
     items: [
      {
+        id: 1,
         image: imgScience,
         title: "Science",
         subtitle: "Science Lab/Teachers",
-        route: "presentation",
+        route: "subject",
       },
       {
+        id: 2,
         image: imgMaths,
         title: "Maths",
         subtitle: "Maths Teacher's",
-        route: "presentation",
+        route: "subject",
       },
       {
+        id: 3,
         image: imgEnglish,
         title: "English",
         subtitle: "English Teachers",
-        route: "presentation",
+        route: "subject",
       },
       {
+        id: 4,
         image: imgpE,
         title: "P.E",
         subtitle: "Physical Education teachers",
-        route: "presentation",
+        route: "subject",
       },
       {
+        id: 5,
         image: imgMusic,
         title: "Music Studies",
         subtitle: "Music Class/Tuition",
-        route: "presentation",
+        route: "subject",
       },
       {
+        id: 6,
         image: imgDt,
         title: "Design and Technology",
         subtitle: "D.T Class",
-        route: "presentation",
+        route: "subject",
       },
       {
+        id: 7,
         image: imgdomesticScience,
         title: "Domestic Science ",
         subtitle: "Cooking Class",
-        route: "presentation",
+        route: "subject",
       },
       {
+        id: 8,
         image: imgartAnddesign,
         title: "Art and Design",
         subtitle: "Art",
-        route: "presentation",
+        route: "subject",
       },
     ]
   },
@@ -180,29 +209,33 @@ export default [
     description: "A Group of maps of the school",
     items: [
       {
+        id: 1,
         image: imgschoolMap,
         title: "A reworked Image of the school in it's design phase",
         subtitle: "Png hand drawn image in inkscape",
-        route: "navigation-navbars",
-        },
+        route: "map",
+      },
       {
+        id: 2,
         image: imgbookMap,
         title: "Nav Tabs",
         subtitle: "2 Nav Tabs",
-        route: "navigation-navtabs",
-        },
+        route: "map",
+      },
       {
+        id: 3,
         image: imgadvancedMap,
         title: "More detailed map",
         subtitle: "A more detailed map with lanscaping andoptions included",
-        route: "navigation-pagination",
-        },
-        {
-          image: imgfinalschoolMap,
-          title: "A map of the school after it was transferred from C Of E to Christ The King Lower Campus",
-          subtitle: "Lower campus< final Map of layout before demolition",
-          route: "navigation-navbars",
-          },
+        route: "map",
+      },
+      {
+        id: 4,
+        image: imgfinalschoolMap,
+        title: "A map of the school after it was transferred from C Of E to Christ The King Lower Campus",
+        subtitle: "Lower campus< final Map of layout before demolition",
+        route: "map",
+      },
     ]
   },
   {
@@ -211,28 +244,32 @@ export default [
       "A short trip into the innovations at the school, BBC Computers ??",
     items: [
       {
+        id: 1,
         image: imgbbcComputer1,
         title: "Does anyone rememeber these computers with the floppy disc drive?  ",
         subtitle: "Classics but very innovative for the 80's. Always a que at lunch for a computer",
-        route: "presentation",
+        route: "computer",
       },
       {
+        id: 2,
         image: imgbbcComputer2,
         title: "Such power we had never used",
         subtitle: "The BBC was an extraordinary piece of kit and the school as a leader in the field",
-        route: "presentation",
+        route: "computer",
       },
       {
+        id: 3,
         image: imgbbcComputer3,
         title: "A considerable upgrade in the end as BBC develpoment and potiental proved popular ",
         subtitle: "The upgraded model with casette access on the keyboard",
-        route: "inputareas-forms",
+        route: "computer",
         },
       {
+        id: 4,
         image: imgfloopyDisc,
         title: "The discs we're massive as you might remember, or our hands were small",
         subtitle: "Floopy Discs we're quite the innovation in their day, do you remember sharing games at lunch time ",
-        route: "inputareas-inputs",
+        route: "computer",
         }
     ]
   },
@@ -242,22 +279,25 @@ export default [
       "A brief catch up on the hottest articles to hit the website about the Welly Road School, opening, closing ",
     items: [
       {
+        id: 1,
         image: imgschoolopening,
         title: "School Opening A brief history",
         subtitle: "The 4th of february 1971 the school was opened by Reverand R.V Scrunby ",
-        route: "ac-alerts",
+        route: "attentionC",
       },
       {
+        id: 2,
         image: imgtrinitymiddlefire22,
         title: "School Closing A brief summary",
         subtitle: "The school closed 31st August 2008 (site remained open under Christ The King)",
-        route: "presentation",
+        route: "attentionC",
       },
      {
+        id: 3,
         image: imgoctogonWindow,
         title: "School Building Images",
         subtitle: "Some site images of the building and grounds",
-        route: "ac-modals",
+        route: "attentionC",
       }
     ]
   },
@@ -267,58 +307,67 @@ export default [
       "School trips from the C Of E Middle School 1971-1990 ",
     items: [
       {
+        id: 1,
         image: imgweald,
         title: "1st years Singleton",
         subtitle: "1st years trips away to the Weald and Downland open air historical museum.",
-        route: "el-buttons",
+        route: "schoolTrips",
         },
       {
+        id: 2,
         image: imgtotlandYouthhostel,
         title: "Totland YMCA Youth Hostel",
         subtitle: "2nd Year school visit to Totland",
-        route: "el-avatars",
+        route: "schoolTrips",
         },
       {
+        id: 3,
         image: imgnewfieldHall,
         title: "Malham Yorkshire, Malham Cove, Imax, Jorvik",
         subtitle: "3rd Year trip away to Newfield Hall Yorkshire",
-        route: "el-dropdowns",
+        route: "schoolTrips",
         },
       {
+        id: 4,
         image: imgpooleFlag,
         title: "Poole in Dorset Adventure Center",
         subtitle: "4th Year Visit to Poole In Dorset Adventure Center",
-        route: "el-toggles",
+        route: "schoolTrips",
         },
       {
+        id: 5,
         image: imgcarisbrookeCastle,
         title: "Carisbrooke Castle",
         subtitle: "Carisbrooke Castle various visits",
-        route: "presentation",
+        route: "schoolTrips",
       },
       {
+        id: 6,
         image: imgromanVillanewport,
         title: "Roman Villa Newport",
         subtitle: "A staple of education was Newport Roman Villa hidden in a small town street",
-        route: "el-breadcrumbs",
+        route: "schoolTrips",
         },
       {
+        id: 7,
         image: imgtripsOut,
         title: "Various Trips out across the Island",
         subtitle: "As some students didn't attend Malham or Poole other options were available to students ",
-        route: "el-badges",
+        route: "schoolTrips",
         },
       {
+        id: 8,
         image: imgosbourneHouse,
         title: "Osbourne House",
         subtitle: "How many times have you visited Osbourne House, a school staple",
-        route: "el-progress-bars",
+        route: "schoolTrips",
         },
       {
+        id: 9,
         image: imgapolloTheatre,
         title: "Apollo Theatre Trip",
         subtitle: " Apollo School Trip, what did you go and see ?",
-        route: "presentation",
+        route: "schoolTrips",
       },
       ]
   }

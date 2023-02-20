@@ -13,6 +13,10 @@ defineProps({
     type: String,
     required: true,
   },
+  id: {
+    type: Number,
+    required: true,
+  },
   image: {
     type: String,
     required: true,
@@ -41,7 +45,7 @@ export default {
 };
 </script>
 <template>
-  <RouterLink :to="{ name: route }">
+  <a :href="route + '/' + id">
     <div
       class="card move-on-hover"
       v-bind="$attrs"
@@ -94,5 +98,5 @@ export default {
         {{ subtitle }}
       </p>
     </div>
-  </RouterLink>
+  </a>
 </template>

@@ -84,11 +84,12 @@ export default {
           <div :class="`row ${index != 0 ? 'mt-3' : ''}`">
             <div
               class="col-md-4 mt-md-0"
-              v-for="{ image, title, subtitle, route, pro } in items"
+              v-for="{ id, image, title, subtitle, route, pro } in items"
               :key="title"
             >
               <ExampleCard
                 class="min-height-160 shadow-lg mt-4"
+                :id="id"
                 :image="image"
                 :title="title"
                 :subtitle="subtitle"

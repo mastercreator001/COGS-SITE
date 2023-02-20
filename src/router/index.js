@@ -1,9 +1,12 @@
 import { createRouter, createWebHistory } from "vue-router";
 import PresentationView from "../views/Presentation/PresentationView.vue";
-import PresentationTeachers from "../views/Presentation/Sections/PresentationTeachers.vue";
-import AboutView from "../views/LandingPages/AboutUs/AboutView.vue";
-import ContactView from "../views/LandingPages/ContactUs/ContactView.vue";
-import AuthorView from "../views/LandingPages/Author/AuthorView.vue";
+import PresentationStaff from "../views/Presentation/Sections/PresentationStaff.vue";
+import PresentationSubject from "../views/Presentation/Sections/PresentationSubject.vue";
+import PresentationMap from "../views/Presentation/Sections/PresentationMap.vue";
+import PresentationattentionC from "../views/Presentation/Sections/PresentationattentionC.vue";
+import PresentationschoolTrips from "../views/Presentation/Sections/PresentationschoolTrips.vue";
+import PresentationComputer from "../views/Presentation/Sections/PresentationComputer.vue";
+import AboutView from "../views/LandingPages/AboutUs/AboutView.vue"
 import SignInBasicView from "../views/LandingPages/SignIn/BasicView.vue";
 import PageHeaders from "../layouts/sections/page-sections/page-headers/HeadersView.vue";
 import PageFeatures from "../layouts/sections/page-sections/features/FeaturesView.vue";
@@ -38,19 +41,40 @@ const router = createRouter({
       component: AboutView,
     },
     {
-      path: "/Teachers",
-      name: "teachers",
-      component: PresentationTeachers,
+      path: "/staff/:id",
+      name: "staff",
+      component: PresentationStaff,
+      props: true,
     },
     {
-      path: "/pages/landing-pages/contact-us",
-      name: "contactus",
-      component: ContactView,
+      path: "/subject/:id",
+      name: "subject",
+      component: PresentationSubject,
+      props: true,
     },
     {
-      path: "/pages/landing-pages/author",
-      name: "author",
-      component: AuthorView,
+      path: "/map/:id",
+      name: "map",
+      component: PresentationMap,
+      props: true,
+    },
+    {
+      path: "/computer/:id",
+      name: "computer",
+      component: PresentationComputer,
+      props: true,
+    },
+    {
+      path: "/attentionC/:id",
+      name: "attentionC",
+      component: PresentationattentionC,
+      props: true,
+    },
+    {
+      path: "/schoolTrips/:id",
+      name: "schoolTrips",
+      component: PresentationschoolTrips,
+      props:true,
     },
     {
       path: "/pages/landing-pages/basic",
