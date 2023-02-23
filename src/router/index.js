@@ -6,7 +6,9 @@ import PresentationMap from "../views/Presentation/Sections/PresentationMap.vue"
 import PresentationattentionC from "../views/Presentation/Sections/PresentationattentionC.vue";
 import PresentationschoolTrips from "../views/Presentation/Sections/PresentationschoolTrips.vue";
 import PresentationComputer from "../views/Presentation/Sections/PresentationComputer.vue";
-import AboutView from "../views/LandingPages/AboutUs/AboutView.vue"
+import AboutView from "../views/LandingPages/AboutUs/AboutView.vue";
+import AuthorView from "../views/LandingPages/Author/AuthorView.vue";
+import ContactView from "../views/LandingPages/ContactUs/ContactView.vue";
 import SignInBasicView from "../views/LandingPages/SignIn/BasicView.vue";
 import PageHeaders from "../layouts/sections/page-sections/page-headers/HeadersView.vue";
 import PageFeatures from "../layouts/sections/page-sections/features/FeaturesView.vue";
@@ -39,6 +41,16 @@ const router = createRouter({
       path: "/pages/landing-pages/about-us",
       name: "about",
       component: AboutView,
+    },
+    {
+      path: "/pages/landing-pages/author",
+      name: "author",
+      component: AuthorView,
+    },
+    {
+      path: "/pages/landing-pages/contactus",
+      name: "contactus",
+      component: ContactView,
     },
     {
       path: "/staff/:id",
@@ -178,5 +190,4 @@ const router = createRouter({
     },
   ],
 });
-
 export default router;

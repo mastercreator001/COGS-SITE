@@ -64,11 +64,13 @@ export default [
         id: 1,
         image: imgharrison,
         title: "Head Teachers",
-        subtitle: "4 Known head teachers",
+        subtitle: "4 Known head teachers Mr Knight, Mr Harrision Mr Bloomfield, Mr Goodhead ",
+        headertext:"helllllo",
         route: "staff",
-        text: "This is the text block...."
+        text1: "We were so lucky to to have the good fortune to have the head teachers we did. Mr Knight started with inovation and courage from the schools opening, Mr Harrision took the torch after Mr Knights retirement. <p>  Mr Harrision who I had the good fortune to be taught by had such a gentle nature he was easily respected and by staff and students.<p/>And finally Mr Bloomfield who saw the school into it's twilight years. Taking the school from the trinity status into the amaglation phase into as we know now Christ The King. A series of dedicated teachers who excelled at being the very best for the staff and students. "
+        
         },
-      {
+     {
         id: 2,
         image: imgfelton,
         title: "Deputy Head Teachers",

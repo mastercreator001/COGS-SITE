@@ -6,7 +6,10 @@ import data from "./Data/designBlocksData";
   <h1>{{ this.teacher.title }}</h1>
   <img :src="this.teacher.image" :title="this.teacher.title" />
   <h3>{{ this.teacher.subtitle }}</h3>
-  <div class="teacherText" v-html=this.teacher.text></div>
+  <h4>{{ this.teacher.headertext }}</h4>
+  <div class="teacherText" v-html=this.teacher.text1></div>
+  <div class="teacherText" v-html=this.teacher.text2></div>
+  <div class="teacherText" v-html=this.teacher.text3></div>
 </template>
 <script>
 export default {
