@@ -64,28 +64,28 @@ export default [
         id: 1,
         image: imgharrison,
         title: "Head Teachers",
-        subtitle: "4 Known head teachers Mr Knight, Mr Harrision Mr Bloomfield, Mr Goodhead ",
-        headertext:"helllllo",
+        subtitle: "Mr P Knight, Mr D Harrision Mr R Bloomfield, and Mr P Goodhead ",
+        headertext: "Mr Harrision was my Headteacher",
         route: "staff",
-        text1: "We were so lucky to to have the good fortune to have the head teachers we did. Mr Knight started with inovation and courage from the schools opening, Mr Harrision took the torch after Mr Knights retirement. <p>  Mr Harrision who I had the good fortune to be taught by had such a gentle nature he was easily respected and by staff and students.<p/>And finally Mr Bloomfield who saw the school into it's twilight years. Taking the school from the trinity status into the amaglation phase into as we know now Christ The King. A series of dedicated teachers who excelled at being the very best for the staff and students. "
-        
-        },
-     {
+        text1: "We were so lucky to to have the good fortune to have the head teachers we did. <br><br>Mr Knight started with innovation and courage from the schools opening as he had the task of creating a workable group of teachers and for the basis and running strucutre from an untested group of people. The establishment of a circilium was of key importance as was the ethics the school would use as remember we are a faith based school so allowing for all aspects of education as well as the Religious aspect was of key importnance. The key for Mr Knignt and his new staff was to be abl to attract a collective repuation in a short amount of time to fill the school and startthe mission. He had all the best tools as he had a new school and it was cutting edge at the time so the school's forms soon filled up. As a leader he was a strong characteur with a well organised brain capable of handling classes should the need arrive. It was true of all the staff there were times all staff taught different subjects. Indeed I remember Mr Harrision teaching English on one occasion but Mr Knights speciality was maths as he was well upto the job. <br><br> Mr Harrision took the torch after Mr Knights retirement. <br><br>Mr Harrision who I had the good fortune to be taught by had such a gentle nature he was easily respected and by staff and students. He had introduced the Red letter, ah well  if our new to the school or had spent any time at the school you would be familur with them although now looking back I would have hoped yo didnt' receive the infimous white letters?? did you. Mr Harrison was a great headteacher who always was always happy to help listen to your issues or worl towards a sucessful resolution. He was the man always in a smart suit and was well liked amoung the staff. I remember Mr Harrision helping out at one of our sports days and I personally had nothing but respect and pride when I came home with a red letter or merit badge helping me to suceed and believe in my ability to achieve and suceeed. Mr Harrison was the second head teacher at the school and in my opinin he best but I can say all the head teachers have admired my respect based on the comments from the C of E Middle School Memory Corner group based on face book <br><br> Mr Bloomfield who saw the school into it's twilight years. <br><br>Taking the school from the trinity status into the amaglation phase into as we know now Christ The King. A series of dedicated teachers who excelled at being the very best for the staff and students. Mr Bloomfield was a mystery as I perosnally have little experience of his leadership but I do know to take after such a legend as Mr Harrison he was well placed to suceed as a sucessor.<br><br>And finally Mr Pat GoodHead is somewhat of an unknown as He has taken charge of the lower campus in the suceeding time after the school was amaglamated into Christ The King Campus. The former C of E Middle campus was utilised for a number of years after being transferred to Christ The King as the renovoation and reconstruction of the main site was redevoleped (formerly The Arch Bishop King Site). When the building process was underway Mr Goodhead was in charge of both sites as headeacher. Mr GoodHead left Christ King School after the school had been demolished."
+      },
+      {
         id: 2,
         image: imgfelton,
         title: "Deputy Head Teachers",
         subtitle: "Deputy Heads",
+        headertext: "Mr Felton Deputy Head",
         route: "staff",
-        text: "This is the <b>text</b> block...."
-        },
+        text1: "The process and structure of a school is very important to its overall sucess and running and although I can only comment on my tie at the school Mr Felton served at deputy head teacher for a substantial time during the school's existence. He was in place as the head teacher under Mr Knight's term and well into and I belive through Mr Harrisions as well. Mr Felton was always a strong personality and a authority figure in my time at he school. He like any other teacher had a dual teachig talent and although Mr Felton was a Deptuy Head he was also found in the D.T or Design Technology department. Perhaps you remember the pencil Holder car you had the chance to make under his tuition or maybe the Parrot, it's a case if you know you just know I'm afraid. <br><br> Mr Felton was somewhat of a familur face in the school and also on many school trips he was also an architect as well in the creation and organisation of the trips. Imagine a large group of students and lots of activities to organise, although this was a yearly trip Malham and Poole in Dorset trip for year 4's it was still needing organisation and staffing. <br><br> Mr Felton was on my trip to Malham and it was as fun as you could imagine especially as it was one of the first trips away from home for allot of young people so seeing familiur faces were a absolute comfort. Mr Felton eventually retired after I left the school but served the school for decades and is now happily enjoying retirement on the Island with his wife. "
+      },
       {
         id: 3,
         image: imgteachersgroupbw,
         title: "Senoir Staff",
         subtitle: "Year Heads",
         route: "staff",
-        text: "This is the <i>text</i> block...."
-        },
+        text1: "In this section we will cover some of the many senior staff we had in the school and it's impossible not to mention the person who inspired me and helped me to accumulate all the information that has helped fill in some gaps. <br><br> Miss Forer, what can you say apart from her falling into a Matriarch catagory.<br><br> Miss Forer started at the school joining for the opening of the school it was definelty a new start and a new challenge as it was the only Church Of Englanf Faith based school on the Island at the time and welcomed students between 9-13 The school started out with 1 head teacher 1 deputy head and 2 full time staff which Miss Forer was head of all years at the opening in the 1971 with an initial intake of 210 students.<br><br>Miss Forer performed many different teaching jobs inside the school aside from the year head role. during my time at the schhol she was a form tutor also a Domestic science teacher a french teacher and I do believe she was also a English teacher as well. Aside from that she was also a drama queen, yes I hear you laughing but she was amazing at getting plays running and casting students in various school plays. She ran and organised the Evacuees production which I stared in (https://youtu.be/tMUhge07wZc) The Evacuees was I'm sure a stressfull occasion for all staff involved and the logisitcs were I'm sure    "
+      },
       {
         id: 4,
         image: imgteachingStaff,
@@ -93,7 +93,7 @@ export default [
         subtitle: "A talented bunch",
         route: "staff",
         text: "This is the text block...."
-        },
+      },
       {
         id: 5,
         image: imgcareTakers,
@@ -142,13 +142,13 @@ export default [
         route: "staff",
         text: "This is the text block...."
       },
-   ]
+    ]
   },
   {
     heading: "Subjects",
     description: "Eight primary Subjects we're studied at Welly Road",
     items: [
-     {
+      {
         id: 1,
         image: imgScience,
         title: "Science",
@@ -265,14 +265,14 @@ export default [
         title: "A considerable upgrade in the end as BBC develpoment and potiental proved popular ",
         subtitle: "The upgraded model with casette access on the keyboard",
         route: "computer",
-        },
+      },
       {
         id: 4,
         image: imgfloopyDisc,
         title: "The discs we're massive as you might remember, or our hands were small",
         subtitle: "Floopy Discs we're quite the innovation in their day, do you remember sharing games at lunch time ",
         route: "computer",
-        }
+      }
     ]
   },
   {
@@ -294,7 +294,7 @@ export default [
         subtitle: "The school closed 31st August 2008 (site remained open under Christ The King)",
         route: "attentionC",
       },
-     {
+      {
         id: 3,
         image: imgoctogonWindow,
         title: "School Building Images",
@@ -314,28 +314,28 @@ export default [
         title: "1st years Singleton",
         subtitle: "1st years trips away to the Weald and Downland open air historical museum.",
         route: "schoolTrips",
-        },
+      },
       {
         id: 2,
         image: imgtotlandYouthhostel,
         title: "Totland YMCA Youth Hostel",
         subtitle: "2nd Year school visit to Totland",
         route: "schoolTrips",
-        },
+      },
       {
         id: 3,
         image: imgnewfieldHall,
         title: "Malham Yorkshire, Malham Cove, Imax, Jorvik",
         subtitle: "3rd Year trip away to Newfield Hall Yorkshire",
         route: "schoolTrips",
-        },
+      },
       {
         id: 4,
         image: imgpooleFlag,
         title: "Poole in Dorset Adventure Center",
         subtitle: "4th Year Visit to Poole In Dorset Adventure Center",
         route: "schoolTrips",
-        },
+      },
       {
         id: 5,
         image: imgcarisbrookeCastle,
@@ -349,21 +349,21 @@ export default [
         title: "Roman Villa Newport",
         subtitle: "A staple of education was Newport Roman Villa hidden in a small town street",
         route: "schoolTrips",
-        },
+      },
       {
         id: 7,
         image: imgtripsOut,
         title: "Various Trips out across the Island",
         subtitle: "As some students didn't attend Malham or Poole other options were available to students ",
         route: "schoolTrips",
-        },
+      },
       {
         id: 8,
         image: imgosbourneHouse,
         title: "Osbourne House",
         subtitle: "How many times have you visited Osbourne House, a school staple",
         route: "schoolTrips",
-        },
+      },
       {
         id: 9,
         image: imgapolloTheatre,
@@ -371,6 +371,6 @@ export default [
         subtitle: " Apollo School Trip, what did you go and see ?",
         route: "schoolTrips",
       },
-      ]
+    ]
   }
 ];
