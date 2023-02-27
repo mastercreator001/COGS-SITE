@@ -205,3 +205,21 @@ Dribbble: <https://dribbble.com/creativetim>
 Google+: <https://plus.google.com/+CreativetimPage>
 
 Instagram: <https://instagram.com/creativetimofficial>
+
+
+## Installing, Running and building
+
+To install the node modules:
+`
+npm install
+`
+
+To debug the site:
+`
+npm run dev
+`
+
+To build the dist filder for hosting:
+`
+npm run build
+`
