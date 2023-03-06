@@ -29,7 +29,7 @@ import marquez from "@/assets/img/ivana-square.jpg";
             
             :profile="{ name: 'Richard McMaster', link: 'javascript:;' }"
             :position="{ label: 'Front End Design', color: 'success' }"
-            description="Passion is something applied to a person of commiment, C Of E is my passion so I hope you enjoy the site ."
+            description="Passion is something applied to a person of commitment, C Of E is my passion so I hope you enjoy the site ."
           />
         </div>
       </div>
