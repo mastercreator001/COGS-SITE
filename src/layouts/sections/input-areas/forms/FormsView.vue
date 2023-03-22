@@ -21,13 +21,13 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="The Upgraded Computer"
-    :breadcrumb="[{ label: 'Input Areas', route: '#' }, { label: 'Forms' }]"
-  >
+    title="Construction map"
+    :breadcrumb="[{ label: 'Construction map', route: '#' }, { label: 'Construction map' }]"
+  >Construction map
     <View
-      title="The actual Killer computer"
+      title="Construction map"
       :code="formSimpleCode"
-      id="form-simple"
+      id="ddh - "
       height="600"
     >
       <FormSimple />

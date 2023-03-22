@@ -21,13 +21,13 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="Modals"
+    title="1980 onwards"
     :breadcrumb="[
-      { label: 'Attention Catchers articles', route: '#' },
-      { label: 'Modals' },
+      { label: '1980 onwards', route: '#' },
+      { label: '1980 onwards' },
     ]"
   >
-    <View title="Simple Modal" :code="simpleModalCode" id="simple-modal">
+    <View title="1980 onwards" :code="simpleModalCode" id="simple-modal">
       <SimpleModal />
     </View>
   </BaseLayout>

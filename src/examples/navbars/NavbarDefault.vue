@@ -300,7 +300,7 @@ watch(
                         <div
                           class="w-100 d-flex align-items-center justify-content-between"
                         >
-                          <div>
+                          <div id="ddh-school">
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
@@ -342,7 +342,7 @@ watch(
                         <div
                           class="w-100 d-flex align-items-center justify-content-between"
                         >
-                          <div>
+                          <div id="ddh-history">
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
@@ -358,7 +358,7 @@ watch(
                         </div>
                       </div>
                     </a>
-                    <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+                    <div id="ddh-history" class="dropdown-menu mt-0 py-3 px-2 mt-3">
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'navigation-navbars' }"
@@ -390,7 +390,7 @@ watch(
                         <div
                           class="w-100 d-flex align-items-center justify-content-between"
                         >
-                          <div>
+                          <div id="ddh-maps">
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
@@ -406,7 +406,7 @@ watch(
                         </div>
                       </div>
                     </a>
-                    <div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+                    <div id="ddh-maps" class="dropdown-menu mt-0 py-3 px-2 mt-3">
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'inputareas-inputs' }"
@@ -432,7 +432,7 @@ watch(
                         <div
                           class="w-100 d-flex align-items-center justify-content-between"
                         >
-                          <div>
+                          <div id="ddh-gallery">
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
@@ -459,7 +459,7 @@ watch(
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'ac-modals' }"
                       >
-                      1980's onward
+                      1980 onward
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
@@ -480,7 +480,7 @@ watch(
                         <div
                           class="w-100 d-flex align-items-center justify-content-between"
                         >
-                          <div>
+                          <div id="ddh-demolition">
                             <h6
                               class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                             >
@@ -521,11 +521,8 @@ watch(
                         :to="{ name: 'el-badges' }"
                       >
                       History
-                      
-                      
-                      
                       </RouterLink>
-                      
+
                     </div>
                   </li>
                 </ul>
@@ -565,7 +562,7 @@ watch(
                         <h6
                           class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                         >
-                          Navigati
+                          Navigation
                         </h6>
                       </div>
                     </div>
@@ -729,8 +726,8 @@ watch(
                 class="material-icons opacity-6 me-2 text-md"
                 :class="getTextColor()"
                 >article</i
-              >
-              Docs
+            
+                >Docs
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -746,12 +743,12 @@ watch(
               class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md mt-0 mt-lg-3 p-3 border-radius-lg"
               aria-labelledby="dropdownMenuDocs"
             >
-              <div class="d-none d-lg-block">
+              <div id="ddh-gallery" class="d-none d-lg-block">
                 <ul class="list-group">
                   <li class="nav-item list-group-item border-0 p-0">
                     <a
                       class="dropdown-item py-2 ps-3 border-radius-md"
-                      href=" https://www.creative-tim.com/learning-lab/vue/overview/material-kit/"
+                      src="/src/main.js?t=1678137429864/"
                     >
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
@@ -766,31 +763,30 @@ watch(
                   <li class="nav-item list-group-item border-0 p-0">
                     <a
                       class="dropdown-item py-2 ps-3 border-radius-md"
-                      href=" https://www.creative-tim.com/learning-lab/vue/colors/material-kit/"
+                      src="/src/main.js?t=1678137429864/"
                     >
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
-                        Foundation
+                        The School Day
                       </h6>
                       <span class="text-sm"
-                        >See our colors, icons and typography</span
+                        >School routine, Start, Lunch.</span
                       >
                     </a>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
                     <a
                       class="dropdown-item py-2 ps-3 border-radius-md"
-                      href=" https://www.creative-tim.com/learning-lab/vue/alerts/material-kit/"
+                      src="/src/assets/img/school maps/bookMap.jpg" title="Nav Tabs"
                     >
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
-                        Components
+                       Fire alarms
                       </h6>
                       <span class="text-sm"
-                        >Explore our collection of fully designed
-                        components</span
+                        >A regular occourence</span
                       >
                     </a>
                   </li>
@@ -800,7 +796,7 @@ watch(
                 <div class="col-md-12 g-0">
                   <a
                     class="dropdown-item py-2 ps-3 border-radius-md"
-                    href="./pages/about-us.html"
+                    src="/src/assets/img/school maps/bookMap.jpg" title="Nav Tabs">
                   >
                     <h6
                       class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"

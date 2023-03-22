@@ -22,13 +22,13 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="Tooltip & Popovers"
+    title="Trips"
     :breadcrumb="[
-      { label: 'Attention Catchers', route: '#' },
-      { label: 'Tooltip & Popovers' },
+      { label: 'Trips', route: '#' },
+      { label: 'Trips for the school' },
     ]"
   >
-    <View title="Popovers" :code="popoversCode" id="popovers">
+    <View title="Singleton, totland, Malham, Poole" :code="popoversCode" id="popovers">
       <Popovers />
     </View>
 

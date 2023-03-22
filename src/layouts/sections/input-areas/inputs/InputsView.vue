@@ -37,14 +37,14 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="Data Storage on a new level "
-    :breadcrumb="[{ label: 'The future of storage', route: '#' }, { label: 'Floopy revolution' }]"
+    title="Opening map"
+    :breadcrumb="[{ label: 'Opening map', route: '#' }, { label: 'Floopy revolution' }]"
   >
-    <View title="The New way to store Data" :code="inputDynamicCode" id="input-dynamic">
+    <View title="opening map" :code="inputDynamicCode" id="input-dynamic">
       <InputDynamic />
     </View>
 
-    <View title="🌐 How much data will a high density (hd) floppy disk hold" :code="inputStaticCode" id="input-static">
+    <View title="🌐 opening map" :code="inputStaticCode" id="input-static">
       <InputStatic />
     </View>
 
