@@ -8,6 +8,7 @@ import PresentationschoolTrips from "../views/Presentation/Sections/Presentation
 import PresentationComputer from "../views/Presentation/Sections/PresentationComputer.vue";
 import AboutView from "../views/LandingPages/AboutUs/AboutView.vue";
 import AuthorView from "../views/LandingPages/Author/AuthorView.vue";
+import DocumentsView from "../views/LandingPages/Documents/DocumentsView.vue";
 import ContactView from "../views/LandingPages/ContactUs/ContactView.vue";
 import SignInBasicView from "../views/LandingPages/SignIn/BasicView.vue";
 import PageHeaders from "../layouts/sections/page-sections/page-headers/HeadersView.vue";
@@ -29,6 +30,8 @@ import ElDropdowns from "../layouts/sections/elements/dropdowns/DropdownsView.vu
 import ElProgressBars from "../layouts/sections/elements/progress-bars/ProgressBarsView.vue";
 import ElToggles from "../layouts/sections/elements/toggles/TogglesView.vue";
 import ElTypography from "../layouts/sections/elements/typography/TypographyView.vue";
+
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -87,6 +90,11 @@ const router = createRouter({
       name: "schoolTrips",
       component: PresentationschoolTrips,
       props:true,
+    },
+    {
+      path: "/pages/landing-pages/documents",
+      name: "docs",
+      component: DocumentsView,
     },
     {
       path: "/pages/landing-pages/basic",

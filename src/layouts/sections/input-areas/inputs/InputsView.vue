@@ -38,8 +38,8 @@ onMounted(() => {
 <template>
   <BaseLayout
     title="Opening map"
-    :breadcrumb="[{ label: 'Opening map', route: '#' }, { label: 'Floopy revolution' }]"
-  >
+    :breadcrumb="[{ label: 'Opening map', route: '#' }, { label: 'A more detailed map featuring landscaping elements' }]"
+  ><img src="/src/assets/img/school maps/advancedMap.jpg" title="More detailed map">
     <View title="opening map" :code="inputDynamicCode" id="input-dynamic">
       <InputDynamic />
     </View>

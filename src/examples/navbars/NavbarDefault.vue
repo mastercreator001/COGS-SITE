@@ -746,10 +746,7 @@ watch(
               <div id="ddh-gallery" class="d-none d-lg-block">
                 <ul class="list-group">
                   <li class="nav-item list-group-item border-0 p-0">
-                    <a
-                      class="dropdown-item py-2 ps-3 border-radius-md"
-                      src="/src/main.js?t=1678137429864/"
-                    >
+                    <RouterLink :to="{ name: 'docs' }">
                       <h6
                         class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"
                       >
@@ -758,7 +755,7 @@ watch(
                       <span class="text-sm"
                         >All about maps of the school</span
                       >
-                    </a>
+                    </RouterLink>
                   </li>
                   <li class="nav-item list-group-item border-0 p-0">
                     <a

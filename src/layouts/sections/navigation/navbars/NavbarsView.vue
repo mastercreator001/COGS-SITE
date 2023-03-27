@@ -24,6 +24,7 @@ onMounted(() => {
     title="SVG School Map"
     :breadcrumb="[{ label: 'Navigation', route: '#' }]"
   >
+  <img src="/src/assets/img/school maps/SCHOOLPLANFINAL.png" title="A reworked Image of the school in it's design phase">
     <View
       title="A reworked Image of the school in it's design phase, built from an original image in Inkscape and created into a svg image"
       id="School map 1"

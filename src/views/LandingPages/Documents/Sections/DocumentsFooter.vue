@@ -54,7 +54,7 @@
         </div>
         <div class="col-lg-6 ms-auto text-lg-end text-center">
           <p class="mb-5 text-lg text-dark font-weight-bold">
-            The gains from coming together as collective gives us the strength for endurance we may not have as individuals. <br><br> Trinty C of E Middle School, "Together we are strong".
+            The gains from coming together as collective gives us the strength for endurance we may not have as individuals. Trinty C of E Middle School, We are Strong.
           </p>
           <a
             href="javascript:;"

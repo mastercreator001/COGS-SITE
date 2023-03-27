@@ -18,14 +18,17 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="Teachers Features "
+    title="Teachers Feature "
     :breadcrumb="[
       { label: 'Page Section', route: '/sections/page-sections/page-headers' },
       { label: 'School teachers' },
     ]"
   >
-    <View title="School teachers" :code="feature1Code" id="feature-1">
-      <FeatureOne />
-    </View>
+  <img data-v-5bda1810="" src="/src/assets/img/headteachers/teachersgroupbw.jpg" title="Senoir Staff">
+    <View title="School teachers" :code="FeatureOne" id="feature-1" title2="hejjdhdj">
+      
+  <FeatureOne />
+  <Text>hellllo</Text>  
+  </View>
   </BaseLayout>
 </template>

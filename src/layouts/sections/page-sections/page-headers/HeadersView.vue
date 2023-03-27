@@ -13,13 +13,14 @@ import { header1Code } from "./components/codes";
 
 // nav-pills
 import setNavPills from "@/assets/js/nav-pills.js";
-
+import imgfelton from "@/assets/img/Headteachers/feltonimg.jpg";
 // hook
 onMounted(() => {
   setNavPills();
 });
 </script>
 <template>
+
   <BaseLayout
     title="Head Teachers Section"
     :breadcrumb="[
@@ -27,8 +28,10 @@ onMounted(() => {
       { label: 'Head teachers' },
     ]"
   >
+  <img  src="/src/assets/img/Headteachers/harrison.jpg" title="Head Teachers">
     <View title="All heads of School 1971-2009" :code="header1Code" id="header-1">
       <HeaderOne />
     </View>
   </BaseLayout>
 </template>
+add text box and text
