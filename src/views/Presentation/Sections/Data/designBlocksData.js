@@ -54,6 +54,7 @@ import imgtripsOut from "@/assets/img/schoolTrips/tripsOut.jpg";
 import imgosbourneHouse from "@/assets/img/schoolTrips/osbourneHouse.png";
 import imgapolloTheatre from "@/assets/img/schoolTrips/apolloTheatre.png";
 import imgfinalschoolMap from "@/assets/img/school maps/finalMapCTK.png";
+import imgschoolhistorictotaloverview1 from"@/assets/img/schoolhistorictotaloverview1.png";
 export default [
   {
     heading: "Staff Heads/teachers & support staff",
@@ -372,5 +373,20 @@ export default [
         route: "schoolTrips",
       },
     ]
+    },
+      {
+        heading: "Historic School View ",
+        description:
+        "School Back in the Eighities ",
+        items: [
+      {
+        id: '#',
+        image: imgschoolhistorictotaloverview1,
+        title: "Historic school",
+        subtitle: "Historic Overview",
+        route: "NavTabsView",
+      },
+    ]
   }
 ];
+  

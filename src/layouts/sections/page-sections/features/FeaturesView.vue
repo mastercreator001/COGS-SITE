@@ -25,7 +25,7 @@ onMounted(() => {
     ]"
   >
   <img data-v-5bda1810="" src="/src/assets/img/headteachers/teachersgroupbw.jpg" title="Senoir Staff">
-    <View title="School teachers" :code="FeatureOne" id="feature-1" title2="hejjdhdj">
+    <View title="School teachers" :code="FeatureOne" id="feature-1" >
       
   <FeatureOne />
   <Text>hellllo</Text>  
