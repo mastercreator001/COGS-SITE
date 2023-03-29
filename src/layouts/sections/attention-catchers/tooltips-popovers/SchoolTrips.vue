@@ -35,5 +35,20 @@ onMounted(() => {
     <View title="Tooltips" :code="tooltipsCode" id="tooltips">
       <Tooltips />
     </View>
+    <View title="Early Pictures" :code="inputIconCode" id="Early Pictures">
+      <InputIcon />
+    </View>
+
+    <View title="School Pictures" :code="inputSuccessCode" id="input-success">
+      <InputSuccess />
+    </View>
+
+    <View title="Trips Away" :code="inputErrorCode" id="input-error">
+      <InputError />
+    </View>
+
+    <View title="Events" :code="inputDisabledCode" id="input-disabled">
+      <InputDisabled />
+    </View>
   </BaseLayout>
 </template>

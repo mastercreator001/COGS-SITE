@@ -27,27 +27,43 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="Badges"
+    title="Current Site Status Christ The King School"
     :breadcrumb="[{ label: 'Elements', route: '#' }, { label: 'Badges' }]"
   >
     <View
-      title="Badges Gradients"
+      title="Current site use"
       :code="badgesGradientCode"
-      id="badges-gradient"
+      id="Current site use"
     >
       <BadgesGradient />
     </View>
 
-    <View title="Badges Simple" :code="badgesSimpleCode" id="badges-simple">
+    <View title="Christ The King Site" :code="badgesSimpleCode" id="badges-simple">
       <BadgesSimple />
     </View>
 
     <View
-      title="Badges Simple Rounded"
+      title="Car park"
       :code="badgesRoundedCode"
       id="badges-rounded"
     >
       <BadgesSimpleRounded />
+    </View>
+
+    <View title="Early Pictures" :code="inputIconCode" id="Early Pictures">
+      <InputIcon />
+    </View>
+
+    <View title=" Infastructure Pictures" :code="inputSuccessCode" id="input-success">
+      <InputSuccess />
+    </View>
+
+    <View title="Near Completition" :code="inputErrorCode" id="input-error">
+      <InputError />
+    </View>
+
+    <View title="Completed" :code="inputDisabledCode" id="input-disabled">
+      <InputDisabled />
     </View>
   </BaseLayout>
 </template>

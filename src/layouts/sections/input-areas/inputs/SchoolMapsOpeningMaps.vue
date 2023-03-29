@@ -37,35 +37,31 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="Opening map"
+    title="Opening Map of the School Concept art"
     :breadcrumb="[{ label: 'Opening map', route: '#' }, { label: 'A more detailed map featuring landscaping elements' }]"
   ><img src="/src/assets/img/school maps/advancedMap.jpg" title="More detailed map">
-    <View title="opening map" :code="inputDynamicCode" id="input-dynamic">
+    <View title="Opening map Concept" :code="inputDynamicCode" id="input-dynamic">
       <InputDynamic />
     </View>
 
-    <View title="🌐 opening map" :code="inputStaticCode" id="input-static">
+    <View title="🌐 Opening map" :code="inputStaticCode" id="input-static">
       <InputStatic />
     </View>
-
-    <View title="To equal 1 Gigabyte, you would need 1,456 720 KB floppy disks. In the late 80's, the 5.25-inch floppy disk was on its way out and in 1987 the 3.5-inchfloppy disk had moved into the high density category with a capacity of 1.44 MB." :code="inputOutlinedCode" id="input-outlined">
+    <img src="/src/assets/img/school maps/advancedMap.jpg" title="More detailed map">
+    <View title="Lanscaping">
       <inputOutlined />
     </View>
 
-    <View title="Input with icon" :code="inputIconCode" id="input-with-icon">
+    <View title="An artists interpretation " :code="inputIconCode" id="input-with-icon">
       <InputIcon />
     </View>
 
-    <View title="Input success" :code="inputSuccessCode" id="input-success">
+    <View title="A view of the future" :code="inputSuccessCode" id="input-success">
       <InputSuccess />
     </View>
 
-    <View title="Input error" :code="inputErrorCode" id="input-error">
+    <View title="How did the map compare to the actual design" :code="inputErrorCode" id="input-error">
       <InputError />
-    </View>
-
-    <View title="Input disabled" :code="inputDisabledCode" id="input-disabled">
-      <InputDisabled />
     </View>
   </BaseLayout>
 </template>

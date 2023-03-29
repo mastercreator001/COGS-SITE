@@ -21,19 +21,39 @@ onMounted(() => {
 </script>
 <template>
   <BaseLayout
-    title="Alerts"
+    title="Memories Gallery"
     :breadcrumb="[
       { label: 'Attention Catchers', route: '#' },
-      { label: 'Alerts' },
+      { label: 'Gallery1971' },
     ]"
   >
     <View
-      title="Simple Alerts"
+      title="Old Photos 1971 Onwards"
       :code="simpleAlertsCode"
-      id="simple-alerts"
+      id="Gallery 1971 old Pictures"
       height="600"
     >
       <SimpleAlerts />
+    </View>
+
+    <View title="">
+      <inputOutlined />
+    </View>
+
+    <View title="Early Pictures" :code="inputIconCode" id="Early Pictures">
+      <InputIcon />
+    </View>
+
+    <View title="School Pictures" :code="inputSuccessCode" id="input-success">
+      <InputSuccess />
+    </View>
+
+    <View title="Trips Away" :code="inputErrorCode" id="input-error">
+      <InputError />
+    </View>
+
+    <View title="Events" :code="inputDisabledCode" id="input-disabled">
+      <InputDisabled />
     </View>
   </BaseLayout>
 </template>

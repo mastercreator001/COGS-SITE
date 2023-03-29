@@ -32,7 +32,7 @@ All about maps of the school"
     ]"
   >
     <View 
-      title="School Documents All about maps of the school" :code="header1Code" id="header-1">
+      title="School Documents Al about maps of the school" :code="header1Code" id="header-1">
       <HeaderOne />
       
       <a class="dropdown-item py-2 ps-3 border-radius-md" src="/src/main.js?t=1678137429864/"><h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0"> School Documents </h6><span class="text-sm">All about maps of the school</span></a>

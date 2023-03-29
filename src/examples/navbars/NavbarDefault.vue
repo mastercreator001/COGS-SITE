@@ -453,19 +453,19 @@ watch(
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'ac-alerts' }"
                       >
-                      Old Photos 1971 onwards
+                      Seventies Gallery Old Photos 1971 onwards
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'ac-modals' }"
                       >
-                      1980 onward
+                      Eighities Gallery 1980 onward
                       </RouterLink>
                       <RouterLink
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'ac-tooltips-popovers' }"
                       >
-                      Trips
+                      School Trips
                       </RouterLink>
                     </div>
                   </li>
@@ -520,7 +520,6 @@ watch(
                         class="dropdown-item ps-3 border-radius-md mb-1"
                         :to="{ name: 'el-badges' }"
                       >
-                      History
                       </RouterLink>
 
                     </div>
