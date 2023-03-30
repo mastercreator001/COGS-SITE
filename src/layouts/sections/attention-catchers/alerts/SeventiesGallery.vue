@@ -36,10 +36,6 @@ onMounted(() => {
       <SimpleAlerts />
     </View>
 
-    <View title="">
-      <inputOutlined />
-    </View>
-
     <View title="Early Pictures" :code="inputIconCode" id="Early Pictures">
       <InputIcon />
     </View>

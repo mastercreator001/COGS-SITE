@@ -28,26 +28,26 @@ onMounted(() => {
       { label: 'Trips for the school' },
     ]"
   >
-    <View title="Singleton, totland, Malham, Poole" :code="popoversCode" id="popovers">
+    <View title="Singleton 1st years, Mainland day trip" :code="popoversCode" id="Singleton Trip">
       <Popovers />
     </View>
 
-    <View title="Tooltips" :code="tooltipsCode" id="tooltips">
+    <View title="Totland 2nd years, Island based stay over" :code="tooltipsCode" id="tooltips">
       <Tooltips />
     </View>
-    <View title="Early Pictures" :code="inputIconCode" id="Early Pictures">
+    <View title="Malham in Yorkshire trip 3rd Years, a week away" :code="inputIconCode" id="Malham in Yorkshire">
       <InputIcon />
     </View>
 
-    <View title="School Pictures" :code="inputSuccessCode" id="input-success">
+    <View title="Poole in Dorset Adventure center 4th years" :code="inputSuccessCode" id="Poole in Dorset">
       <InputSuccess />
     </View>
 
-    <View title="Trips Away" :code="inputErrorCode" id="input-error">
+    <View title="Carisbrooke Castle " :code="inputErrorCode" id="Carisbrooke Castle">
       <InputError />
     </View>
 
-    <View title="Events" :code="inputDisabledCode" id="input-disabled">
+    <View title="Roman Villa Newport, mutiple years" :code="inputDisabledCode" id="Newport, Roman Villa ">
       <InputDisabled />
     </View>
   </BaseLayout>

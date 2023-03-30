@@ -20,7 +20,7 @@ onMounted(() => {
   <BaseLayout
     title="Teachers Feature "
     :breadcrumb="[
-      { label: 'Page Section', route: '/sections/page-sections/page-headers' },
+      { label: 'Teaching Staff', route: '/sections/page-sections/page-headers' },
       { label: 'School teachers' },
     ]"
   >

@@ -22,34 +22,29 @@ onMounted(() => {
 <template>
   <BaseLayout
     title="Construction map ready"
-    :breadcrumb="[{ label: 'Construction map', route: '#' }, { label: 'Construction map' }]"
+    :breadcrumb="[{ label: 'Construction map', route: '#'}, { label: 'Construction map' }]"
   >Construction map
     <View
       title="Construction map"
       :code="formSimpleCode"
       id="ddh - "
-      height="600"
-    
-    >
+      height="600">
       <FormSimple />
     </View>
-    <View title="">
-      <inputOutlined />
-    </View>
     
-    <View title="Input with icon" :code="inputIconCode" id="input-with-icon">
+    <View title="An enviable project, A new school a new vision and a new challenge ahead." :code="inputIconCode" id="Project">
       <InputIcon />
     </View>
 
-    <View title="Input success" :code="inputSuccessCode" id="input-success">
+    <View title="Built with a vision " :code="inputSuccessCode" id="Vision">
       <InputSuccess />
     </View>
 
-    <View title="Input error" :code="inputErrorCode" id="input-error">
+    <View title="Innovation and tech" :code="inputErrorCode" id="Modern">
       <InputError />
     </View>
 
-    <View title="Input disabled" :code="inputDisabledCode" id="input-disabled">
+    <View title="Glimpses of future design" :code="inputDisabledCode" id="Asbestos usage">
       <InputDisabled />
     </View>
   </BaseLayout>
