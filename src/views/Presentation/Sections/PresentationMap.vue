@@ -26,3 +26,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.mapsubtitle { text-align: center;}
+.mapText {font-size: 1.2em;}
+.mapText {text-align: center;}
+</style>

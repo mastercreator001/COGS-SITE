@@ -26,6 +26,7 @@ export default {
         this.teacher = items[i]
       }
     }
+    console.log(this.staff)
   },
 };
 </script>

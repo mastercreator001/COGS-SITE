@@ -109,7 +109,7 @@ export default [
         title: "Dinner ladies",
         subtitle: "As present as I rememeber in my time at school we're Mrs smith and Mrs Tout.",
         route: "staff",
-        text: "This is the text block...."
+        text1: "This is the text block...."
       },
       {
         id: 7,
@@ -117,7 +117,7 @@ export default [
         title: "Kitchen staff",
         subtitle: "Dinner Ladies",
         route: "staff",
-        text: "This is the text block...."
+        text1: "This is the text block...."
       },
       {
         id: 8,
@@ -125,7 +125,7 @@ export default [
         title: "Kitchen staff",
         subtitle: "Dinner Ladies",
         route: "staff",
-        text: "This is the text block...."
+        text1: "This is the text block...."
       },
       {
         id: 9,
@@ -133,7 +133,7 @@ export default [
         title: "Library staff",
         subtitle: "Mrs Colenutt as I remember, correct me if I'm wrong",
         route: "staff",
-        text: "This is the text block...."
+        text1: "This is the text block...."
       },
       {
         id: 10,
@@ -141,69 +141,78 @@ export default [
         title: "French teacher Misss Forer",
         subtitle: "Miss Forer had mutiple talents English French D.S",
         route: "staff",
-        text: "This is the text block...."
+        text1: "This is the text block...."
       },
     ]
   },
   {
-    heading: "Subjects",
+    heading: "Subjects held in the circillum",
     description: "Eight primary Subjects we're studied at Welly Road",
     items: [
       {
-        id: 1,
+        id: 11,
         image: imgScience,
         title: "Science",
         subtitle: "Science Lab/Teachers",
         route: "subject",
+        text1: "Science is an incredibly powerful tool that has a wide range of individual and collective benefits. It teaches us how to think, organize and analyze huge amounts of data, ask questions, collect information, organize and test our ideas, solve problems and apply what we learn.<br> It also provides a platform for building confidence, developing communication skills and making sense of the world around us in an ever-evolving world shaped by science and technology.<br><br> Additionally it can inform problem-solving and decision-making by taking into account social and ethical considerations."
       },
       {
-        id: 2,
+        id: 12,
         image: imgMaths,
         title: "Maths",
         subtitle: "Maths Teacher's",
         route: "subject",
+        text1: "We need to learn math at school because it teaches us to think logically, identify and state the problem clearly, plan how to solve the problem, evaluate and draw conclusions based on our knowledge, as well as reason in a mathematical way.",
       },
       {
-        id: 3,
+        id: 13,
         image: imgEnglish,
         title: "English",
         subtitle: "English Teachers",
         route: "subject",
+        text1: "Learning a new language can be an enjoyable experience at any age. People learn new languages for many different reasons, such as travel or work, and the benefits can be incredibly worthwhile, whatever the reason.<br><br>Studying a foreign language can increase cultural knowledge and can help you feel more confident when travelling.  Its also a fact that learning a second language improves brain functionality. <br> Studies show that people who speak more than one language have improved memory, problem-solving and critical-thinking skills, enhanced concentration, ability to multitask and better listening skills.<br><br>Sounds great, right? So, now you know that its a good idea to learn a language, why is it important to learn English"
       },
       {
-        id: 4,
+        id: 14,
         image: imgpE,
         title: "P.E",
         subtitle: "Physical Education teachers",
         route: "subject",
+        text1: "Summarizer Physical education is an incredibly important part of a students overall well-being and academic performance. It provides students with the opportunity to participate in various sports and games, where they learn about teamwork, anger management, competition, self-control and personal growth as well as social skills such as working cooperatively and effectively with others."
       },
       {
-        id: 5,
+        id: 15,
         image: imgMusic,
         title: "Music Studies",
         subtitle: "Music Class/Tuition",
         route: "subject",
+        text1: "This is a text block"
       },
       {
-        id: 6,
+        id: 16,
         image: imgDt,
         title: "Design and Technology",
         subtitle: "D.T Class",
         route: "subject",
+        text1: "This is a text block"
       },
       {
-        id: 7,
+        id: 17,
         image: imgdomesticScience,
         title: "Domestic Science ",
         subtitle: "Cooking Class",
         route: "subject",
+        text1: "This is a text block"
       },
       {
-        id: 8,
+        id: 18,
         image: imgartAnddesign,
         title: "Art and Design",
         subtitle: "Art",
         route: "subject",
+        text1: "This is a text block"
+
       },
     ]
   },
@@ -224,6 +233,7 @@ export default [
         title: "Nav Tabs",
         subtitle: "2 Nav Tabs",
         route: "map",
+        text1: "This is a text block"
       },
       {
         id: 3,
