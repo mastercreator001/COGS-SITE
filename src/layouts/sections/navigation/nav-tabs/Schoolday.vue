@@ -7,7 +7,7 @@ import View from "../../components/View.vue";
 
 // Nav tabs page components
 import TabsSimple from "./components/TabsSimple.vue";
-import imgschoolhistorictotaloverview1 from "@/assets/img/schoolhistorictotaloverview1.png";
+import imgschoolhistorictotaloverview1 from"@/assets/img/schoolhistorictotaloverview1.png";
 // Nav tabs page components codes
 import { TabsSimpleCode } from "./components/Codes";
 
@@ -26,8 +26,9 @@ onMounted(() => {
     subtitle="The structure of the school day "
     text="Start time"
     :breadcrumb="[{ label: 'Navigation', route: 'school' }, { label: 'School day' }]"
-  ><img src="src/assets/img/schoolhistorictotaloverview1.png" title="School day itinerary">
-
+  >
+  <img src="src/assets/img/schoolhistorictotaloverview1.png" title="School day itinerary">
+  <img src= "assets/img/schoolhistorictotaloverview1.png">
     <View title="School Day structure"   
     subtitle="The structure of the school day "
     :code="TabsSimpleCode" id="tabs-simple">

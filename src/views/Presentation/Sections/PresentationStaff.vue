@@ -6,7 +6,7 @@ import data from "./Data/designBlocksData";
   
   <h1>{{ this.teacher.title }}</h1>
   <img :src="this.teacher.image" :title="this.teacher.title" />
-  <h3>{{ this.teacher.subtitle }}</h3>
+  <div class="teacherSubtitle">{{ this.teacher.subtitle }}</div>
   <h4>{{ this.teacher.headertext }}</h4>
   <div class="teacherText" v-html=this.teacher.text1></div>
   
@@ -31,7 +31,7 @@ export default {
 };
 </script>
 <style scoped>
-.teachersubtitle { text-align: center;}
-.teacherText {font-size: 1.2em;}
-.teacherText {text-align: center;}
+.teacherSubtitle { text-align: center;}
+.teacherText {font-size: 1.2em; text-align: center}
+
 </style>

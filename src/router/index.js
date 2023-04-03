@@ -92,6 +92,11 @@ const router = createRouter({
       props:true,
     },
     {
+      path: "/sections/navigation/nav-tabs",
+      name: "navigation-navtabs",
+      component: NavigationNavTabs,
+    },
+    {
       path: "/pages/landing-pages/documents",
       name: "docs",
       component: DocumentsView,
@@ -115,11 +120,6 @@ const router = createRouter({
       path: "/sections/navigation/navbars",
       name: "navigation-navbars",
       component: NavigationNavbars,
-    },
-    {
-      path: "/sections/navigation/nav-tabs",
-      name: "navigation-navtabs",
-      component: NavigationNavTabs,
     },
     {
       path: "/sections/navigation/pagination",

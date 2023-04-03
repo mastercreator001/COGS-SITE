@@ -84,13 +84,18 @@ const highlighter = (code) => {
 </script>
 
 <template>
+  
   <div
     class="position-relative border-radius-xl overflow-hidden shadow-lg mb-7"
+    
   >
-    <div class="container border-bottom">
+    <div 
+    class="container border-bottom">
       <div class="row justify-space-between py-2">
-        <div class="col-lg-3 me-auto">
+        <div class="col-lg-12 me-auto">
           <p class="lead text-dark pt-1 mb-0">{{ title }}</p>
+          
+    
         </div>
         
       </div>
