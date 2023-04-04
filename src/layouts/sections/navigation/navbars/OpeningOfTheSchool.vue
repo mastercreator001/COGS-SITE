@@ -34,7 +34,9 @@ onMounted(() => {
     </View>
 
     <img src="/src/assets/img/school maps/advancedMap.jpg" title=" an early iamge of the school post construction">
-    <View title="The School as any would have been well planned for and as such plans were generated to facilitate a well built school within approvals from the local council and conforming to the general needs of it's intended future use. As you can see above with the map recreated from an original the basic layout of the school was decided years previously by a local arcitect in consultation with the Diosease Of Portsmouth and the local council. ">
+    <View title="The school was disolved on 1 September 2008 when two middle schools on Wellington Road, Archbishop King Catholic Middle and Trinity Church of England Middle merged making the newly Formed Christ The King College. This was done in line with the education reforms that were being implemented to schools across the island at the time.The desire to expand beyond the then-current age range of 9–13 years was first registered in December 2004, shortly after a new headteacher, Pat Goodhead, was appointed. In 2006, after outstanding Ofsted inspections for Trinity, and the need for a new headteacher for Archbishop King, a joint governing body committee was formed and Pat Goodhead was appointed headteacher of both Trinity and Archbishop King. The amalgamation of the two schools moved on as there were positive responses from all involved, including clergy, parents and staff, which was confirmed during an official review. The schools were fully amalgamated in September 2008, resulting in the closure of Trinity and Archbishop King middle schools.
+    
+    The School as any would have been well planned for and as such plans were generated to facilitate a well built school within approvals from the local council and conforming to the general needs of it's intended future use. As you can see above with the map recreated from an original the basic layout of the school was decided years previously by a local arcitect in consultation with the Diosease Of Portsmouth and the local council. ">
       <inputOutlined />
     </View>
 

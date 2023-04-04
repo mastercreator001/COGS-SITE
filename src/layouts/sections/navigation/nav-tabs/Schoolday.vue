@@ -94,4 +94,4 @@ onMounted(() => {
     <View title="How was the lunchtime started? and the home time given, not that we need any asking to head home">
     </View>
   </BaseLayout>
-</template>
+  </template>

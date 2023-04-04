@@ -348,7 +348,7 @@ watch(
                             >
                               History
                             </h6>
-                            <span class="text-sm">See all navigations</span>
+                            <span class="text-sm">See all the school's History</span>
                           </div>
                           <img
                             :src="downArrow"
@@ -396,7 +396,7 @@ watch(
                             >
                               School maps
                             </h6>
-                            <span class="text-sm">See all input areas</span>
+                            <span class="text-sm">See all maps</span>
                           </div>
                           <img
                             :src="downArrow"
@@ -438,7 +438,7 @@ watch(
                             >
                               Gallery
                             </h6>
-                            <span class="text-sm">See all examples</span>
+                            <span class="text-sm">See school photos</span>
                           </div>
                           <img
                             :src="downArrow"
@@ -486,7 +486,7 @@ watch(
                             >
                               Demolition
                             </h6>
-                            <span class="text-sm">See all elements</span>
+                            <span class="text-sm">See all demolition Information</span>
                           </div>
                           <img
                             :src="downArrow"
