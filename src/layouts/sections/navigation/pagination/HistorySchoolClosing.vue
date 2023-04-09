@@ -33,21 +33,22 @@ onMounted(() => {
     </View>
     <img src="/src/assets/img/schoolClosing/schoolClosing2.png" alt="Classroom picture">
     <View title="Slow Closure">
-      <inputOutlined />
+    
     </View>
 
-    <View title="With the Amalmation of Church Of England Middle School and Arch Bishop King into the Newly formed Christ The King Amalgmation the site was probably already doomed in it's current form having been a functional site for 7-10 year olds it was to serve a older student making the size and proportion of the classes unstatinable on the site in it's current format." :code="inputIconCode" id="input-with-icon">
-      <InputIcon />
+    <View title="Previous middle schools below have now been phased out during the transition to a two-tier education system. Education on the Island has really suffered since this happened and most of the secondary schools are now deemed unsatisfactory or have gone into special measures.
+    The lower campus of Christ the King College (formerly Trinity Church of England Middle School).
+    There were originally 16 state-maintained middle schools on the Isle of Wight, including two voluntary aided church schools (which were the foundation for the new Christ the King College) and two controlled church schools. In July 2008, the two voluntary aided middle schools (Archbishop King Catholic Middle School and Trinity Church of England Middle School), which are both located on Wellington Road in Carisbrooke, closed and reopened in September of the same year as Christ the King College, and from September 2009, kept on its Year 8 pupils of the previous academic year as Year 9 pupils and started the transition from middle school to secondary school age range. In line with the rest of the Island, September 2009 was the last year in which a Year 5 was admitted to the Christ the King College. Instead, all Year 5 pupils, and then consequently Year 6 pupils, on the island remained in primary schools from September 2010 onwards. With the Amalmation of Church Of England Middle School and Arch Bishop King into the Newly formed Christ The King College the site was probably already doomed in it's current form having been a functional site for 6-9 year olds it was to serve a older student making the size and proportion of the classes unstatinable on the site in it's current format." >
+    
     </View>
-    <img src=" /src/assets/img/schoolClosing/schoolClosure5.png " alt="School fire credit Island Echo">
+    <img src=" /src/assets/img/schoolClosing/schoolClosure5.png " alt="School fire credit Island Echo" class="center">
     <View title="New site in the future ,credit Island Echo" >
     </View>
  
-    <View title="Fundamently after the councils decimation of middle school's on the Island and the subseqent redundancy of the middles amalgamtion set about making a new site by redevloping the Former ABK site to house the new Christ The King complex. C of E Middle had it's uses in the mean time as while construction was happening a temporary base was need for the schols day to day functions And the sit was referred to as the lowe campus, a reflection on the ages rather than the location. ">
+    <View title="Fundamently after the councils decimation of middle school's on the Island and the subseqent redundancy of the middles amalgamtion set about making a new site by redevloping the Former ABK site to house the new Christ The King complex. C of E Middle had it's uses in the mean time as while construction was happening a temporary base was need for the schools day to day functions And the site was referred to as the lowe campus, a reflection on the ages rather than the location on the road. ">
     </View>
-    <img src="/src/assets/img/schoolClosing/schoolClosing3.png" alt="School signs of neglect">
+    <img src="/src/assets/img/schoolClosing/schoolClosing3.png" alt="School signs of neglect" class="center">
     <View title="Inevitable Neglect" >
-      <InputDisabled />
     </View>
 
     <img src="/src/assets/img/schoolClosing/schoolClosing4.png" alt=" front view of the school">

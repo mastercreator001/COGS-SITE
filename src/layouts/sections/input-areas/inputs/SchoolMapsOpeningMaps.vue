@@ -39,7 +39,7 @@ onMounted(() => {
   <BaseLayout
     title="Opening Map of the School Concept art"
     :breadcrumb="[{ label: 'Opening map', route: '#' }, { label: 'A more detailed map featuring landscaping elements' }]"
-  ><img src="/src/assets/img/school maps/advancedMap.jpg" title="More detailed map">
+  ><img src="@/assets/img/school maps/advancedMap.jpg" title="More detailed map">
     <View title="Opening map Concept" :code="inputDynamicCode" id="input-dynamic">
       <InputDynamic />
     </View>
@@ -47,7 +47,7 @@ onMounted(() => {
     <View title="🌐 Opening map" :code="inputStaticCode" id="input-static">
       <InputStatic />
     </View>
-    <img src="/src/assets/img/school maps/advancedMap.jpg" title="More detailed map">
+    <img src="@/assets/img/school maps/advancedMap.jpg" title="More detailed map">
     <View title="Lanscaping">
       <inputOutlined />
     </View>
