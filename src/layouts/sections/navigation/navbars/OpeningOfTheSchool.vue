@@ -53,7 +53,7 @@ export default {
       <schoolmap  />
     </View>
 
-    <img src="@/assets/img/school maps/advancedMap.jpg" title=" an early iamge of the school post construction" @click="openImage">
+    <img src="@/assets/img/school maps/advancedMap.jpg" title=" an early image of the school post construction" @click="openImage">
     <View title="The school was disolved on 1 September 2008 when two middle schools on Wellington Road, Archbishop King Catholic Middle and Trinity Church of England Middle merged making the newly Formed Christ The King College. This was done in line with the education reforms that were being implemented to schools across the island at the time.The desire to expand beyond the then-current age range of 9–13 years was first registered in December 2004, shortly after a new headteacher, Pat Goodhead, was appointed. In 2006, after outstanding Ofsted inspections for Trinity, and the need for a new headteacher for Archbishop King, a joint governing body committee was formed and Pat Goodhead was appointed headteacher of both Trinity and Archbishop King. The amalgamation of the two schools moved on as there were positive responses from all involved, including clergy, parents and staff, which was confirmed during an official review. The schools were fully amalgamated in September 2008, resulting in the closure of Trinity and Archbishop King middle schools.
     
     The School as any would have been well planned for and as such plans were generated to facilitate a well built school within approvals from the local council and conforming to the general needs of it's intended future use. As you can see above with the map recreated from an original the basic layout of the school was decided years previously by a local arcitect in consultation with the Diosease Of Portsmouth and the local council. ">
@@ -68,7 +68,10 @@ export default {
     <View title="Many changes undoubtely were decided before the school inception but some such as landscaping were although mostly preplanned were finally decided rather later. All part of the design procees but the school was to be a natural wondrland as well as a school. Indeed it its later days it actually had a nature reserve and a pond to compliment all the extra trees and predetermined landscaping already decided upon in the planning phase. " >
     </View>
 
-    <img src="@/assets/img/school maps/finalMapCTK.png" title="A final map of the school in it's pre demolition phase" @click="openImage">
+    <img src="@/assets/img/school maps/finalMapCTK1.png" 
+    title="A final map of the school in it's pre demolition phase" @click="openImage">
+    <img src="@/assets/img/school maps/finalMapCTK2.png" title="A final map of the school in it's pre demolition close up image" @click="openImage">
+    
     <View title="A rather local affair, although the school had influence from the Diosease of Portsmouth and indeed The Church Of England it was designed by local architects and the materials where pratical were also sourced locally. The builders then would naturally be local as well as was the case in this construction effort. Although the school was new it had the innovations to stand above the rest with a new modern design and all the sports and gym equiptment to match any of the leading schools.">
     </View>
 
