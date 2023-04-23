@@ -31,7 +31,7 @@ export default {
   methods: {
     openImage: function(elem) {
       this.ImagePopupShow = false
-      this.ImagePopupTitle = elem.srcElement.alt
+      this.ImagePopupTitle = elem.srcElement.title
       this.ImagePopupSrc = elem.srcElement.src
       this.ImagePopupShow = true
     }
@@ -48,32 +48,31 @@ export default {
     ]"
     
   >
-  <img src="/src/assets/img/school/school staff/teacherFeature/teachersGroupMalham.png" title="Senoir Staff" @click="openImage">
-    <View title="School teachers at the Malham third year week away outing">
+  <img src="/src/assets/img/school/school staff/teacherFeature/teachersGroupMalham.png" title="Senior Staff"                   @click="openImage">
+    <View title="School teachers pictured at 'High Field House', Malham Yorkshire">
       
     </View>
-    <View title="English Teachers Miss Dennis"  id="Early Pictures">
+   <View> <h1> title="English Teachers Miss Dennis"  id="Early Pictures"</h1>
      
     </View>
-    <View title="English Teachers"  id="Early Pictures">
-     
+    
+    <img src="/src/assets/img/school/school staff/teacherFeature/missForer2.png"  title="Miss Forer with student" @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrWalker.png" title="English Teachers" 
+    @click="openImage">
+    <View title="English Teachers">
+      
     </View>
 
-    <img src="/src/assets/img/school/school staff/teacherFeature/missForer2.png"  alt="Miss Forer with student" @click="openImage">
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrWalker.png" alt="" @click="openImage">
-    <View title="Miss Forer and Mr Walker"  id="input-success">
-      
-    </View>
     <View title="Welcome back and yes you guessed it our staff member today will be Miss Forer. Always the friend and forever the matriah of C of E Middle School having started) at the beginning of the school. 
     Miss Forer has been a powerhouse at the school and her restless passion for the students and the success of them has left many a happy memory amoung students and staff.
     She has always been the willing agent amoung the staff to have fun and minor misdemours amoung charity events and fun within the school. 
     She in herself is and I'm sure she won't mind is in her eighties and still a very active and positive person amoung the community as well as voluntary  work undertaken.
     Forever in our hearts and minds Miss  Forer is forever a most valued friend teacher and part of the school.
-    My personal thanks goes to Miss Forer for her kindness in donating many items that make this collection possible and much more interesting.">
+    My personal thanks goes to Miss Forer for her kindness in donating many items that make this collection possible and much more interesting for the whole group to enjoy over the coming years. It is somewhat with sadness we look to the future for the students won't know the hapiness and love we felt being looked after at C of E Middle and hence the reason to keep the memory of our experiences alive.">
             
     </View>
 
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrsHayles.png" alt="Mrs Hayles maths" @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrsHayles.png" title="Mrs Hayles maths" @click="openImage">
     <View title="Mrs Hayles, Mrs Besley" >
       
     </View>
@@ -83,7 +82,7 @@ export default {
     If we could have some awesome memories of this special lady it would be great maybe where she us now what she has done since if you know. ">
      </View>
 
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrsPassmore.png" alt="Mrs Passmore art" @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrsPassmore.png" title="Mrs Passmore art" @click="openImage">
     <View title="Art Mrs Passmore, Mr Patterson Mr O'Donohue"  id="input-disabled"></View>
     <View title="Let's take a trip into the art department and today we are visiting Mrs Passmore. What happened to her I remember her being my art teacher during my 87 through 90 time at the school but she seems to have been there for only a while. It seems she joined as a temporary teacher in 1984 as a replacment for the previous teacher Mr O Donaghue who never returned, thanks Sarah.
     Do you know her or where she went or perhaps your related to her. Or maybe you can add a part of the puzzle were missing here.
@@ -93,9 +92,11 @@ export default {
     I also remember her driving her yellow Mercedes Benz and as I recall a very expensive car in the day so maybe she was a teacher for the live of the job. I'm keen to hear of your thoughts for this memorable teacher and would love to find out if she inspired you to do something artsy with your life." >
     </View>
 
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrTansley2.png" alt="Science staff Mr Tansley" 
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrTansley2.png" title="Science staff Mr Tansley" 
     @click="openImage">
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrMoorse.png" alt="Science staff Mr Moorse " @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrMoorse.png" title="Science staff Mr Moorse " @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/monk2.png" title="Science staff Mr Monk" 
+    @click="openImage">
     <View title="Science Teachers Mr Tansley, Mr Moorse, Mr Monk">
      </View>
      <View title="We are visiting the science department today and a true icon of that department. I remember him as I'm sure many of you will as a cleaver man who was not only good at his job but a fun man to be around as well.
@@ -106,11 +107,11 @@ export default {
     If we could have any names some memories or funny events it would be most appreciated. I think we can also say Mr Tansley was always a well dressed man sporting the tank tops of the time, surely they were in fashion at some point ?">
      </View>
      <View title=" Mr Moorse We are moving back into the science department of the 80's and taking a look at Mr Moorse. I know he's about but can't contact him currently so if you can please do ask if he would like to join the group.
-    Mr Moorse was a lab technician in the science department helping Mr Tansley with the amazing experiments we were all in awe about and intrducing us to the world of Scientific discovery. Science was fun as it was interesting curious and mysterious all at the same time.Mr Moorse joined the school in the mid to late eighties and had been a relatively young chap at the time. Ambitious and keen so when he joined us in out Malham trip in 1989 you expected fun and he didn't disappoint. Playing football with the boys and being one of the lads he had an unfortunate accident and damaged his leg. Resulting in him being taken to the hospital by a teacher and coming back with his leg either heavily or bandaged or in plaster. Opps being the operative word perhaps some one with a longer memory can help me with this. Mr Moorse left C Of E Middle School to become a deputy head at Osbourne Middle school and eventually transferred Cowes Enterprise College and started teaching Maths, a man of many talents Science Maths and a born leader. He has been very productive over the years as I have read in previous posts leaving C of E to move onto bigger better and greater posts. So if we can build a picture of him joining leaving and a full set of fun memories of this memorable teacher please do.">
+    Mr Moorse was a lab technician in the science department helping Mr Tansley with the amazing experiments we were all in awe about and intrducing us to the world of Scientific discovery. Science was fun as it was interesting curious and mysterious all at the same time. Mr Moorse joined the school in the mid to late eighties and had been a relatively young chap at the time. Ambitious and keen so when he joined us in out Malham trip in 1989 you expected fun and he didn't disappoint. Playing football with the boys and being one of the lads he had an unfortunate accident and damaged his leg. Resulting in him being taken to the hospital by a teacher and coming back with his leg either heavily or bandaged or in plaster. Opps being the operative word perhaps some one with a longer memory can help me with this. Mr Moorse left C Of E Middle School to become a deputy head at Osbourne Middle school and eventually transferred to Cowes Enterprise College and started teaching Maths, a man of many talents Science, Maths and a born leader. He has been very productive over the years as I have read in previous posts upon leaving C of E he moved onto bigger better jobs. So if we can build a picture of him joining leaving and a full set of fun memories of this memorable teacher please do.">
      </View>
     
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrsBall.png" alt="Mrs Ball Compilation " @click="openImage">
-    
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrsBall.png" title="Mrs Ball Compiliation " @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrChristensen.png" title="Mr Christensen " @click="openImage">
      <View title="Physicial Education Teachers Mrs Ball, Mr Christensen(Aka Mr C), Mr Hind, Ms Sue Rayner, Mr Baggot, Mrs Honor "> 
       </View>
     <View title="Today we have Mrs Ball or at least as far as memory serves we do. I believe she was a physical education teacher so we're hoping to get some great memories of this well deserved teacher. I'm sure she was at the school in the mid to end of the eighties and certainly into the later years at the school working into the formation of Christ The King College and now forms part of the school history.
@@ -127,8 +128,8 @@ export default {
       </View>
 
 
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrsReynolds1.png" alt="Mrs Reynolds " @click="openImage">
-    <img src="/src/assets/img/school/school staff/teacherFeature/missForer2.png" alt="Miss Forer " @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrsReynolds1.png" title="Mrs Reynolds " @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/missForer2.png" title="Miss Forer " @click="openImage">
     <View title="Mrs Reynolds+ Miss Forer">
       </View>
     
@@ -138,7 +139,7 @@ export default {
       </View>
       
    
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrFelton.png" alt="Mr Felton school photo">
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrFelton.png" title="Mr Felton school photo">
     <View title="Mr Felton Design and Technology previously deputy Mr Luckett Mr Darby"  id="Early Pictures " @click="openImage">
      
     </View>
@@ -149,20 +150,21 @@ export default {
      </View>
 
     
-     <img src="/src/assets/img/school/school staff/teacherFeature/mrsMurdoch.png" alt="Mrs Murdoch Domestic Science " @click="openImage">
+     <img src="/src/assets/img/school/school staff/teacherFeature/mrsMurdoch.png" title="Mrs Murdoch Domestic Science " @click="openImage">
     <View title="Mrs Murcoch"  id="Mrs Murdoch, AKA super gran">
       
     </View>
-    <View title="I have for you today Mrs Murdoch, a member of staff who has undoubtedly touched many hearts as teachers generally seemed to. However that said there aren't many teachers who have also added to our waist lines as well.Mrs Murdoch originally came for interview at the school with Mr Knight and had no particular job in mind but when asked about domestic science and the opportunity to take classes it was seized upon for a one year trial.And yes you guessed it 21 years later upon Mrs  Murdoch's retirement domestic science was still being taught in the school.The smells made throughout the school fave the atmosphere of home and a want to always be innthat class off only to actually discover the recipe that was being cooked and satisfy curiosity.
+    <View title="I have for you today Mrs Murdoch, a member of staff who has undoubtedly touched many hearts as teachers generally seemed to. However that said there aren't many teachers who have also added to our waist lines as well. Mrs Murdoch originally came for interview at the school with Mr Knight and had no particular job in mind but when asked about domestic science and the opportunity to take classes it was seized upon for a one year trial. And yes you guessed it 21 years later upon Mrs  Murdoch's retirement domestic science was still being taught in the school. The smells made throughout the school fave the atmosphere of home and a want to always be in that class off only to actually discover the recipe that was being cooked and satisfy curiosity.
     I hope many memories will be shared of this great lady whom I feel sure is still cooking and has been a wonderful tutor over the years my self included.
     Sometimes called super gran after the television series her broad Scottish accent and her outward commitment to doing her very best has left everyone who dealt with her nothing but good memories and probably satisfactory waist lines. 
     I'm keen to hear if Mrs Murdoch has inspired or just added to people's love of cooking or perhaps careers in the end. 
-    She was a fantastic form group tutor as I was in 2m but also a great teacher brought along to totland youth hostel having added to the happy experience.
+    She was a fantastic form group tutor as I was in 2m but also a great teacher brought along to Totland Youth Hostel having added to the happy experience.
     Mrs Murdoch is the pinnacle of teaching for me and I'm definatly a big fan so hardly impartial.">
       </View>
     
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrsBrock.png" alt="Mrs Brock, Miss Goodship, Music teacher" @click="openImage">
-    <View title="Music Teachers Mrs Brock, Miss Goodship, any others please let us know"  id="Mrs Brock">
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrsBrock.png" title="Mrs Brock, Music teacher" @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/missGoodship.png" title="Miss Goodship, Music teacher" @click="openImage">
+    <View title="Music Teachers Mrs Brock, Miss Goodship, any others please let us know"  id="Mrs Brock & Miss Goodship">
       </View>
     
     <View title="Welcome back, as they say music is the heart and soul and for this lady it seems to be a literal statement. Yes that right we are visiting Mrs Brock as it has been previously mentioned to me Mrs Brock was a music teacher composer and very talent individual whom music is everything.
@@ -174,8 +176,8 @@ export default {
     Please only add members who went to the school and can contribute to the group as this is our place and it is special.">
      </View>
 
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrsChalloner.png" alt="Mrs Challoner " @click="openImage">
-    <img src="/src/assets/img/school/school staff/teacherFeature/mrsReynolds1.png" alt="Mrs Reynolds" @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrsChalloner.png" title="Mrs Challoner " @click="openImage">
+    <img src="/src/assets/img/school/school staff/teacherFeature/mrsReynolds1.png" title="Mrs Reynolds" @click="openImage">
     <View title="Religious Educataion Mrs Challoner and Mrs Reynolds, Miss Howe  "  id="Mrs Challoner and Mrs Reynolds">
      </View>
      <View> Hello to Mrs Challoner apart from the lovely smile of course. 
@@ -188,11 +190,12 @@ export default {
       She has been a friend a teacher a confidant and much much more. My dealings with Mrs Reynolds are limited as I never had her as a tutor or as far as my limited memory goes a teacher that said I feel sure we will discover new things we all forgot and can celebrate a fantastic part of the C of E community at Trinity.</View>
     
 
-      <img src="/src/assets/img/school/school staff/teacherFeature/mrsWatkins.png" alt="Mrs Watkins/ Cobby/ Mountgomery" @click="openImage">
-      <img src="/src/assets/img/school/school staff/teacherFeature/missDennis.png" alt="Miss Dennis">
+      <img src="/src/assets/img/school/school staff/teacherFeature/mrsWatkins.png" title="Mrs Watkins/ Cobby/ Mountgomery" @click="openImage">
+      <img src="/src/assets/img/school/school staff/teacherFeature/missDennis.png" title="Miss Dennis">
     <View title="History Miss Watkins, Miss Dennis Mr Besley "  id="History " @click="openImage">
      </View>
-
+<hr>
+<hr>
    <View title="Hello to Mrs Watkins she remarried into Mrs Cobby and is now Mrs Montgomery 
       so from here to the end of the post we shall use her new name just so it doesn't get to confusing .
       Mrs Montgomery joined the school in April 1980 to cover Mr Luckett 's time table so it wasn't a long term thing but fortunately enough we have kept her for longer.  
@@ -215,6 +218,17 @@ export default {
       Was Miss Dennis a vicar at Parkhurst upon leaving  C of E Middle school of may be you know her and can help with a time line of her following movements. "  id="Miss Denis">
      </View>
 
+
+     <img src="/src/assets/img/school/school staff/teacherFeature/missBarabraWatson.png" title="Miss Barbera Watson" @click="openImage"><View title=" Miss Barbera Watson Ornithologists club  "  id="Miss Barbera Watson ">
+     </View>
+
+
+
+     <View title="Hello Miss Watson a teacher who served the school as 
+      many of the other did but in a rather unique capacity it seems. She ran the schools ornnthologists club 
+      Dedication and good principles must have been  deeper than a student would have noticed as they certainly did retain their staff at C of E middle. Incase you didn't know Ornithologists study every aspect of birds, including bird songs, flight patterns, physical appearance, and migration patterns. Birds are genetically related to dinosaurs, which is something else an ornithologist might study.
+       "  id="Miss Watson">
+     </View>
      
   </BaseLayout>
 </template>
